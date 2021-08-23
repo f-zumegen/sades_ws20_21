@@ -1,0 +1,64 @@
+@startuml
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 60 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+skinparam linetype ortho
+
+' title
+title 3-2-1 Smart Light Factory
+
+
+
+' Abstract Classes
+' ============================
+abstract class LightFactory{
+{abstract} createLight(name: string): Light
+someOperation()
+}
+
+interface Light{
++ name: string
+- state: boolean
+switchOn()
+switchOff()
+getState(): boolean
+}
+
+' Concrete Classes
+' ============================
+class SwitchLightFactory{
+createLight(name: string): Light
+}
+
+class DimmLightFactory{
+createLight(name: string): Light
+}
+
+class SwitchLight{
+}
+
+class DimmLight{
+- dimm_lvl: int
+setDimmLvl(lvl: int)
+getDimmLvl(): int
+}
+
+' Relations
+' ================================
+LightFactory <|-down- SwitchLightFactory
+LightFactory <|-down- DimmLightFactory
+LightFactory -right-> Light
+Light <|.down. SwitchLight
+Light <|.down. DimmLight
+
+@enduml

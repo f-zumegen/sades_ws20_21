@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="654px" preserveAspectRatio="none" style="width:1014px;height:654px;" version="1.1" viewBox="0 0 1014 654" width="1014px" zoomAndPan="magnify"><defs><filter height="300%" id="f1axlcgfvt1fw" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="69" x="466.06" y="16.708">System</text><!--MD5=[41314a0efc36828092cff9ebad2fcafd]
+class Group--><rect codeLine="23" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="112.0234" id="Group" style="stroke:#A80036;stroke-width:1.5;" width="179" x="701.5" y="528.9531"/><ellipse cx="768.25" cy="544.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M770.5938,540.625 C769.6563,540.1875 769.0625,540.0469 768.1875,540.0469 C765.5625,540.0469 763.5625,542.125 763.5625,544.8438 L763.5625,545.9688 C763.5625,548.5469 765.6719,550.4375 768.5625,550.4375 C769.7813,550.4375 770.9375,550.1406 771.6875,549.5938 C772.2656,549.1875 772.5938,548.7344 772.5938,548.3438 C772.5938,547.8906 772.2031,547.5 771.7344,547.5 C771.5156,547.5 771.3125,547.5781 771.125,547.7656 C770.6719,548.25 770.6719,548.25 770.4844,548.3438 C770.0625,548.6094 769.375,548.7344 768.6094,548.7344 C766.5625,548.7344 765.2656,547.6406 765.2656,545.9375 L765.2656,544.8438 C765.2656,543.0625 766.5156,541.75 768.25,541.75 C768.8281,541.75 769.4375,541.9063 769.9063,542.1563 C770.3906,542.4375 770.5625,542.6563 770.6563,543.0625 C770.7188,543.4688 770.75,543.5938 770.8906,543.7188 C771.0313,543.8594 771.2656,543.9688 771.4844,543.9688 C771.75,543.9688 772.0156,543.8281 772.1875,543.6094 C772.2969,543.4531 772.3281,543.2656 772.3281,542.8438 L772.3281,541.4219 C772.3281,540.9844 772.3125,540.8594 772.2188,540.7031 C772.0625,540.4375 771.7813,540.2969 771.4844,540.2969 C771.1875,540.2969 770.9844,540.3906 770.7656,540.7031 L770.5938,540.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="788.75" y="549.1074">Group</text><line style="stroke:#A80036;stroke-width:1.5;" x1="702.5" x2="879.5" y1="560.9531" y2="560.9531"/><ellipse cx="712.5" cy="571.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="721.5" y="575.1636">name: string</text><ellipse cx="712.5" cy="584.7578" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="153" x="721.5" y="587.9683">includedLightsIDs: int array</text><line style="stroke:#A80036;stroke-width:1.5;" x1="702.5" x2="879.5" y1="594.5625" y2="594.5625"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="709.5" y="602.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="721.5" y="608.7729">configure_group()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="709.5" y="615.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="721.5" y="621.5776">set_state()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="709.5" y="628.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="721.5" y="634.3823">set_brightness_level()</text><!--MD5=[e4faacc5b8aef66b11ab0c816bbbc7f8]
+class Scene--><rect codeLine="31" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="86.4141" id="Scene" style="stroke:#A80036;stroke-width:1.5;" width="179" x="101.5" y="541.9531"/><ellipse cx="167.75" cy="557.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M170.0938,553.625 C169.1563,553.1875 168.5625,553.0469 167.6875,553.0469 C165.0625,553.0469 163.0625,555.125 163.0625,557.8438 L163.0625,558.9688 C163.0625,561.5469 165.1719,563.4375 168.0625,563.4375 C169.2813,563.4375 170.4375,563.1406 171.1875,562.5938 C171.7656,562.1875 172.0938,561.7344 172.0938,561.3438 C172.0938,560.8906 171.7031,560.5 171.2344,560.5 C171.0156,560.5 170.8125,560.5781 170.625,560.7656 C170.1719,561.25 170.1719,561.25 169.9844,561.3438 C169.5625,561.6094 168.875,561.7344 168.1094,561.7344 C166.0625,561.7344 164.7656,560.6406 164.7656,558.9375 L164.7656,557.8438 C164.7656,556.0625 166.0156,554.75 167.75,554.75 C168.3281,554.75 168.9375,554.9063 169.4063,555.1563 C169.8906,555.4375 170.0625,555.6563 170.1563,556.0625 C170.2188,556.4688 170.25,556.5938 170.3906,556.7188 C170.5313,556.8594 170.7656,556.9688 170.9844,556.9688 C171.25,556.9688 171.5156,556.8281 171.6875,556.6094 C171.7969,556.4531 171.8281,556.2656 171.8281,555.8438 L171.8281,554.4219 C171.8281,553.9844 171.8125,553.8594 171.7188,553.7031 C171.5625,553.4375 171.2813,553.2969 170.9844,553.2969 C170.6875,553.2969 170.4844,553.3906 170.2656,553.7031 L170.0938,553.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="188.25" y="562.1074">Scene</text><line style="stroke:#A80036;stroke-width:1.5;" x1="102.5" x2="279.5" y1="573.9531" y2="573.9531"/><ellipse cx="112.5" cy="584.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="121.5" y="588.1636">name: string</text><ellipse cx="112.5" cy="597.7578" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="153" x="121.5" y="600.9683">includedLightsIDs: int array</text><line style="stroke:#A80036;stroke-width:1.5;" x1="102.5" x2="279.5" y1="607.5625" y2="607.5625"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="109.5" y="615.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="121.5" y="621.7729">configure_scene()</text><!--MD5=[7c1a0278dec21c72584b17e1785fd623]
+class Light--><rect codeLine="37" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="60.8047" id="Light" style="stroke:#A80036;stroke-width:1.5;" width="108" x="798" y="53.4531"/><ellipse cx="834.6" cy="69.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M836.9438,65.125 C836.0063,64.6875 835.4125,64.5469 834.5375,64.5469 C831.9125,64.5469 829.9125,66.625 829.9125,69.3438 L829.9125,70.4688 C829.9125,73.0469 832.0219,74.9375 834.9125,74.9375 C836.1313,74.9375 837.2875,74.6406 838.0375,74.0938 C838.6156,73.6875 838.9438,73.2344 838.9438,72.8438 C838.9438,72.3906 838.5531,72 838.0844,72 C837.8656,72 837.6625,72.0781 837.475,72.2656 C837.0219,72.75 837.0219,72.75 836.8344,72.8438 C836.4125,73.1094 835.725,73.2344 834.9594,73.2344 C832.9125,73.2344 831.6156,72.1406 831.6156,70.4375 L831.6156,69.3438 C831.6156,67.5625 832.8656,66.25 834.6,66.25 C835.1781,66.25 835.7875,66.4063 836.2563,66.6563 C836.7406,66.9375 836.9125,67.1563 837.0063,67.5625 C837.0688,67.9688 837.1,68.0938 837.2406,68.2188 C837.3813,68.3594 837.6156,68.4688 837.8344,68.4688 C838.1,68.4688 838.3656,68.3281 838.5375,68.1094 C838.6469,67.9531 838.6781,67.7656 838.6781,67.3438 L838.6781,65.9219 C838.6781,65.4844 838.6625,65.3594 838.5688,65.2031 C838.4125,64.9375 838.1313,64.7969 837.8344,64.7969 C837.5375,64.7969 837.3344,64.8906 837.1156,65.2031 L836.9438,65.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="853.4" y="73.6074">Light</text><line style="stroke:#A80036;stroke-width:1.5;" x1="799" x2="905" y1="85.4531" y2="85.4531"/><ellipse cx="809" cy="96.4531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="818" y="99.6636">state: boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="799" x2="905" y1="106.2578" y2="106.2578"/><!--MD5=[999e49f72af8639b360af99f8c1ff713]
+class SwitchLight--><rect codeLine="41" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="99.2188" id="SwitchLight" style="stroke:#A80036;stroke-width:1.5;" width="128" x="7" y="284.9531"/><ellipse cx="35.05" cy="300.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M37.3938,296.625 C36.4563,296.1875 35.8625,296.0469 34.9875,296.0469 C32.3625,296.0469 30.3625,298.125 30.3625,300.8438 L30.3625,301.9688 C30.3625,304.5469 32.4719,306.4375 35.3625,306.4375 C36.5813,306.4375 37.7375,306.1406 38.4875,305.5938 C39.0656,305.1875 39.3938,304.7344 39.3938,304.3438 C39.3938,303.8906 39.0031,303.5 38.5344,303.5 C38.3156,303.5 38.1125,303.5781 37.925,303.7656 C37.4719,304.25 37.4719,304.25 37.2844,304.3438 C36.8625,304.6094 36.175,304.7344 35.4094,304.7344 C33.3625,304.7344 32.0656,303.6406 32.0656,301.9375 L32.0656,300.8438 C32.0656,299.0625 33.3156,297.75 35.05,297.75 C35.6281,297.75 36.2375,297.9063 36.7063,298.1563 C37.1906,298.4375 37.3625,298.6563 37.4563,299.0625 C37.5188,299.4688 37.55,299.5938 37.6906,299.7188 C37.8313,299.8594 38.0656,299.9688 38.2844,299.9688 C38.55,299.9688 38.8156,299.8281 38.9875,299.6094 C39.0969,299.4531 39.1281,299.2656 39.1281,298.8438 L39.1281,297.4219 C39.1281,296.9844 39.1125,296.8594 39.0188,296.7031 C38.8625,296.4375 38.5813,296.2969 38.2844,296.2969 C37.9875,296.2969 37.7844,296.3906 37.5656,296.7031 L37.3938,296.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="51.95" y="305.1074">SwitchLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="134" y1="316.9531" y2="316.9531"/><ellipse cx="18" cy="327.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="27" y="331.1636">ID: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="134" y1="337.7578" y2="337.7578"/><ellipse cx="18" cy="348.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="27" y="351.9683">send(ID, msg)</text><ellipse cx="18" cy="361.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="27" y="364.7729">recv(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="371.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="27" y="377.5776">switch_state(msg)</text><!--MD5=[a54edd4c870d7b3a603adac8183ae883]
+class DimmLight--><rect codeLine="48" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="124.8281" id="DimmLight" style="stroke:#A80036;stroke-width:1.5;" width="141" x="781.5" y="271.9531"/><ellipse cx="817.65" cy="287.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M819.9938,283.625 C819.0563,283.1875 818.4625,283.0469 817.5875,283.0469 C814.9625,283.0469 812.9625,285.125 812.9625,287.8438 L812.9625,288.9688 C812.9625,291.5469 815.0719,293.4375 817.9625,293.4375 C819.1813,293.4375 820.3375,293.1406 821.0875,292.5938 C821.6656,292.1875 821.9938,291.7344 821.9938,291.3438 C821.9938,290.8906 821.6031,290.5 821.1344,290.5 C820.9156,290.5 820.7125,290.5781 820.525,290.7656 C820.0719,291.25 820.0719,291.25 819.8844,291.3438 C819.4625,291.6094 818.775,291.7344 818.0094,291.7344 C815.9625,291.7344 814.6656,290.6406 814.6656,288.9375 L814.6656,287.8438 C814.6656,286.0625 815.9156,284.75 817.65,284.75 C818.2281,284.75 818.8375,284.9063 819.3063,285.1563 C819.7906,285.4375 819.9625,285.6563 820.0563,286.0625 C820.1188,286.4688 820.15,286.5938 820.2906,286.7188 C820.4313,286.8594 820.6656,286.9688 820.8844,286.9688 C821.15,286.9688 821.4156,286.8281 821.5875,286.6094 C821.6969,286.4531 821.7281,286.2656 821.7281,285.8438 L821.7281,284.4219 C821.7281,283.9844 821.7125,283.8594 821.6188,283.7031 C821.4625,283.4375 821.1813,283.2969 820.8844,283.2969 C820.5875,283.2969 820.3844,283.3906 820.1656,283.7031 L819.9938,283.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="836.35" y="292.1074">DimmLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="782.5" x2="921.5" y1="303.9531" y2="303.9531"/><ellipse cx="792.5" cy="314.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="801.5" y="318.1636">ID: int</text><ellipse cx="792.5" cy="327.7578" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="801.5" y="330.9683">brightnessLevel: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="782.5" x2="921.5" y1="337.5625" y2="337.5625"/><ellipse cx="792.5" cy="348.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="801.5" y="351.7729">send(ID, msg)</text><ellipse cx="792.5" cy="361.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="801.5" y="364.5776">recv(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="789.5" y="371.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="801.5" y="377.3823">switch_state(msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="789.5" y="383.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="801.5" y="390.187">set_brightness(msg)</text><!--MD5=[f82d76eff182c810438097a2d656d907]
+class ESIApp--><rect codeLine="57" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="188.8516" id="ESIApp" style="stroke:#A80036;stroke-width:1.5;" width="154" x="527" y="239.9531"/><ellipse cx="578.75" cy="255.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M581.0938,251.625 C580.1563,251.1875 579.5625,251.0469 578.6875,251.0469 C576.0625,251.0469 574.0625,253.125 574.0625,255.8438 L574.0625,256.9688 C574.0625,259.5469 576.1719,261.4375 579.0625,261.4375 C580.2813,261.4375 581.4375,261.1406 582.1875,260.5938 C582.7656,260.1875 583.0938,259.7344 583.0938,259.3438 C583.0938,258.8906 582.7031,258.5 582.2344,258.5 C582.0156,258.5 581.8125,258.5781 581.625,258.7656 C581.1719,259.25 581.1719,259.25 580.9844,259.3438 C580.5625,259.6094 579.875,259.7344 579.1094,259.7344 C577.0625,259.7344 575.7656,258.6406 575.7656,256.9375 L575.7656,255.8438 C575.7656,254.0625 577.0156,252.75 578.75,252.75 C579.3281,252.75 579.9375,252.9063 580.4063,253.1563 C580.8906,253.4375 581.0625,253.6563 581.1563,254.0625 C581.2188,254.4688 581.25,254.5938 581.3906,254.7188 C581.5313,254.8594 581.7656,254.9688 581.9844,254.9688 C582.25,254.9688 582.5156,254.8281 582.6875,254.6094 C582.7969,254.4531 582.8281,254.2656 582.8281,253.8438 L582.8281,252.4219 C582.8281,251.9844 582.8125,251.8594 582.7188,251.7031 C582.5625,251.4375 582.2813,251.2969 581.9844,251.2969 C581.6875,251.2969 581.4844,251.3906 581.2656,251.7031 L581.0938,251.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="599.25" y="260.1074">ESIApp</text><line style="stroke:#A80036;stroke-width:1.5;" x1="528" x2="680" y1="271.9531" y2="271.9531"/><ellipse cx="538" cy="282.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="547" y="286.1636">ID: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="528" x2="680" y1="292.7578" y2="292.7578"/><ellipse cx="538" cy="303.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="547" y="306.9683">send(ID, msg)</text><ellipse cx="538" cy="316.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="547" y="319.7729">recv(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="326.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="547" y="332.5776">handle_user_input()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="339.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="125" x="547" y="345.3823">display_active_lights()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="351.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="83" x="547" y="358.187">create_group()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="364.7813"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="547" y="370.9917">create_scene()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="377.5859"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="547" y="383.7964">create_trigger_event()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="390.3906"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="84" x="547" y="396.6011">activate_light()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="403.1953"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="92" x="547" y="409.4058">activate_group()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="535" y="416"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="95" x="547" y="422.2104">activate_scene()</text><!--MD5=[5d2fce9b67a18f8c888bc6bd14570fff]
+class Backend--><rect codeLine="71" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="124.8281" id="Backend" style="stroke:#A80036;stroke-width:1.5;" width="191" x="235.5" y="271.9531"/><ellipse cx="300.75" cy="287.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M303.0938,283.625 C302.1563,283.1875 301.5625,283.0469 300.6875,283.0469 C298.0625,283.0469 296.0625,285.125 296.0625,287.8438 L296.0625,288.9688 C296.0625,291.5469 298.1719,293.4375 301.0625,293.4375 C302.2813,293.4375 303.4375,293.1406 304.1875,292.5938 C304.7656,292.1875 305.0938,291.7344 305.0938,291.3438 C305.0938,290.8906 304.7031,290.5 304.2344,290.5 C304.0156,290.5 303.8125,290.5781 303.625,290.7656 C303.1719,291.25 303.1719,291.25 302.9844,291.3438 C302.5625,291.6094 301.875,291.7344 301.1094,291.7344 C299.0625,291.7344 297.7656,290.6406 297.7656,288.9375 L297.7656,287.8438 C297.7656,286.0625 299.0156,284.75 300.75,284.75 C301.3281,284.75 301.9375,284.9063 302.4063,285.1563 C302.8906,285.4375 303.0625,285.6563 303.1563,286.0625 C303.2188,286.4688 303.25,286.5938 303.3906,286.7188 C303.5313,286.8594 303.7656,286.9688 303.9844,286.9688 C304.25,286.9688 304.5156,286.8281 304.6875,286.6094 C304.7969,286.4531 304.8281,286.2656 304.8281,285.8438 L304.8281,284.4219 C304.8281,283.9844 304.8125,283.8594 304.7188,283.7031 C304.5625,283.4375 304.2813,283.2969 303.9844,283.2969 C303.6875,283.2969 303.4844,283.3906 303.2656,283.7031 L303.0938,283.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="52" x="321.25" y="292.1074">Backend</text><line style="stroke:#A80036;stroke-width:1.5;" x1="236.5" x2="425.5" y1="303.9531" y2="303.9531"/><polygon fill="none" points="246.5,309.9531,250.5,313.9531,246.5,317.9531,242.5,313.9531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="165" x="255.5" y="318.1636">connectedLightsIDs: int array</text><polygon fill="none" points="246.5,322.7578,250.5,326.7578,246.5,330.7578,242.5,326.7578" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="123" x="255.5" y="330.9683">configuredGroups: list</text><polygon fill="none" points="246.5,335.5625,250.5,339.5625,246.5,343.5625,242.5,339.5625" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="255.5" y="343.7729">configuredScenes: list</text><polygon fill="none" points="246.5,348.3672,250.5,352.3672,246.5,356.3672,242.5,352.3672" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="162" x="255.5" y="356.5776">configuredTriggerEvents: list</text><line style="stroke:#A80036;stroke-width:1.5;" x1="236.5" x2="425.5" y1="363.1719" y2="363.1719"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="243.5" y="371.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="255.5" y="377.3823">handle_sensor_input(msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="243.5" y="383.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="146" x="255.5" y="390.187">handle_switch_input(msg)</text><!--MD5=[eb26e8375994933049d180321e211cca]
+class TriggeredEvent--><rect codeLine="80" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="73.6094" id="TriggeredEvent" style="stroke:#A80036;stroke-width:1.5;" width="131" x="389.5" y="46.9531"/><ellipse cx="407.2" cy="62.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M409.5438,58.625 C408.6063,58.1875 408.0125,58.0469 407.1375,58.0469 C404.5125,58.0469 402.5125,60.125 402.5125,62.8438 L402.5125,63.9688 C402.5125,66.5469 404.6219,68.4375 407.5125,68.4375 C408.7313,68.4375 409.8875,68.1406 410.6375,67.5938 C411.2156,67.1875 411.5438,66.7344 411.5438,66.3438 C411.5438,65.8906 411.1531,65.5 410.6844,65.5 C410.4656,65.5 410.2625,65.5781 410.075,65.7656 C409.6219,66.25 409.6219,66.25 409.4344,66.3438 C409.0125,66.6094 408.325,66.7344 407.5594,66.7344 C405.5125,66.7344 404.2156,65.6406 404.2156,63.9375 L404.2156,62.8438 C404.2156,61.0625 405.4656,59.75 407.2,59.75 C407.7781,59.75 408.3875,59.9063 408.8563,60.1563 C409.3406,60.4375 409.5125,60.6563 409.6063,61.0625 C409.6688,61.4688 409.7,61.5938 409.8406,61.7188 C409.9813,61.8594 410.2156,61.9688 410.4344,61.9688 C410.7,61.9688 410.9656,61.8281 411.1375,61.6094 C411.2469,61.4531 411.2781,61.2656 411.2781,60.8438 L411.2781,59.4219 C411.2781,58.9844 411.2625,58.8594 411.1688,58.7031 C411.0125,58.4375 410.7313,58.2969 410.4344,58.2969 C410.1375,58.2969 409.9344,58.3906 409.7156,58.7031 L409.5438,58.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="93" x="421.8" y="67.1074">TriggeredEvent</text><line style="stroke:#A80036;stroke-width:1.5;" x1="390.5" x2="519.5" y1="78.9531" y2="78.9531"/><ellipse cx="400.5" cy="89.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="409.5" y="93.1636">triggerValue: auto</text><line style="stroke:#A80036;stroke-width:1.5;" x1="390.5" x2="519.5" y1="99.7578" y2="99.7578"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="397.5" y="107.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="105" x="409.5" y="113.9683">check_for_trigger()</text><!--MD5=[80a979c5cb1fa74e07dd1637efa6e0a9]
+class DayLightSensor--><rect codeLine="85" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="99.2188" id="DayLightSensor" style="stroke:#A80036;stroke-width:1.5;" width="160" x="381" y="535.4531"/><ellipse cx="411.3" cy="551.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M413.6438,547.125 C412.7063,546.6875 412.1125,546.5469 411.2375,546.5469 C408.6125,546.5469 406.6125,548.625 406.6125,551.3438 L406.6125,552.4688 C406.6125,555.0469 408.7219,556.9375 411.6125,556.9375 C412.8313,556.9375 413.9875,556.6406 414.7375,556.0938 C415.3156,555.6875 415.6438,555.2344 415.6438,554.8438 C415.6438,554.3906 415.2531,554 414.7844,554 C414.5656,554 414.3625,554.0781 414.175,554.2656 C413.7219,554.75 413.7219,554.75 413.5344,554.8438 C413.1125,555.1094 412.425,555.2344 411.6594,555.2344 C409.6125,555.2344 408.3156,554.1406 408.3156,552.4375 L408.3156,551.3438 C408.3156,549.5625 409.5656,548.25 411.3,548.25 C411.8781,548.25 412.4875,548.4063 412.9563,548.6563 C413.4406,548.9375 413.6125,549.1563 413.7063,549.5625 C413.7688,549.9688 413.8,550.0938 413.9406,550.2188 C414.0813,550.3594 414.3156,550.4688 414.5344,550.4688 C414.8,550.4688 415.0656,550.3281 415.2375,550.1094 C415.3469,549.9531 415.3781,549.7656 415.3781,549.3438 L415.3781,547.9219 C415.3781,547.4844 415.3625,547.3594 415.2688,547.2031 C415.1125,546.9375 414.8313,546.7969 414.5344,546.7969 C414.2375,546.7969 414.0344,546.8906 413.8156,547.2031 L413.6438,547.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="428.7" y="555.6074">DayLightSensor</text><line style="stroke:#A80036;stroke-width:1.5;" x1="382" x2="540" y1="567.4531" y2="567.4531"/><ellipse cx="392" cy="578.4531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="401" y="581.6636">ID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="389" y="588.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="134" x="401" y="594.4683">brightnessDetected: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="382" x2="540" y1="601.0625" y2="601.0625"/><ellipse cx="392" cy="612.0625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="401" y="615.2729">send(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="389" y="621.8672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="401" y="628.0776">detect_brightness()</text><!--MD5=[79d86d11b376658584aaf6110ce7a55f]
+class HardwareSwitch--><rect codeLine="92" fill="#FEFECE" filter="url(#f1axlcgfvt1fw)" height="112.0234" id="HardwareSwitch" style="stroke:#A80036;stroke-width:1.5;" width="167" x="122.5" y="27.9531"/><ellipse cx="154.15" cy="43.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M156.4938,39.625 C155.5563,39.1875 154.9625,39.0469 154.0875,39.0469 C151.4625,39.0469 149.4625,41.125 149.4625,43.8438 L149.4625,44.9688 C149.4625,47.5469 151.5719,49.4375 154.4625,49.4375 C155.6813,49.4375 156.8375,49.1406 157.5875,48.5938 C158.1656,48.1875 158.4938,47.7344 158.4938,47.3438 C158.4938,46.8906 158.1031,46.5 157.6344,46.5 C157.4156,46.5 157.2125,46.5781 157.025,46.7656 C156.5719,47.25 156.5719,47.25 156.3844,47.3438 C155.9625,47.6094 155.275,47.7344 154.5094,47.7344 C152.4625,47.7344 151.1656,46.6406 151.1656,44.9375 L151.1656,43.8438 C151.1656,42.0625 152.4156,40.75 154.15,40.75 C154.7281,40.75 155.3375,40.9063 155.8063,41.1563 C156.2906,41.4375 156.4625,41.6563 156.5563,42.0625 C156.6188,42.4688 156.65,42.5938 156.7906,42.7188 C156.9313,42.8594 157.1656,42.9688 157.3844,42.9688 C157.65,42.9688 157.9156,42.8281 158.0875,42.6094 C158.1969,42.4531 158.2281,42.2656 158.2281,41.8438 L158.2281,40.4219 C158.2281,39.9844 158.2125,39.8594 158.1188,39.7031 C157.9625,39.4375 157.6813,39.2969 157.3844,39.2969 C157.0875,39.2969 156.8844,39.3906 156.6656,39.7031 L156.4938,39.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="171.85" y="48.1074">HardwareSwitch</text><line style="stroke:#A80036;stroke-width:1.5;" x1="123.5" x2="288.5" y1="59.9531" y2="59.9531"/><ellipse cx="133.5" cy="70.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="142.5" y="74.1636">ID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="130.5" y="80.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="142.5" y="86.9683">button1Pressed: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="130.5" y="93.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="142.5" y="99.7729">button2Pressed: boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="123.5" x2="288.5" y1="106.3672" y2="106.3672"/><ellipse cx="133.5" cy="117.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="142.5" y="120.5776">send(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="130.5" y="127.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="124" x="142.5" y="133.3823">detect_button_press()</text><!--MD5=[d279c403f4cddc7e28c36a1def3c8083]
+reverse link Light to SwitchLight--><path codeLine="103" d="M777.829,100.1971 C615.375,133.8711 238.321,213.6921 185,239.9531 C161.692,251.4321 138.946,268.5071 119.98,284.9351 " fill="none" id="Light-backto-SwitchLight" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="776.906,93.2401,797.909,96.0431,779.742,106.9501,776.906,93.2401" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fa31e174c868248651664775c33a84f6]
+reverse link Light to DimmLight--><path codeLine="104" d="M852,135.0321 C852,174.4591 852,229.6011 852,271.7511 " fill="none" id="Light-backto-DimmLight" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="845,134.9281,852,114.9281,859,134.9281,845,134.9281" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f9e3b73001b6283620f360f8875bb4a5]
+reverse link Light to Group--><path codeLine="105" d="M899.077,129.0261 C926.109,157.6791 957.49,197.5071 972,239.9531 C999.172,319.4371 1007.12,352.6461 972,428.9531 C952.802,470.6691 916.223,505.3501 880.946,531.2541 " fill="none" id="Light-backto-Group" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="894.046,133.8941,885.047,114.7101,904.045,124.0951,894.046,133.8941" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d1cdc2dbc433bee5494a7102924006a0]
+link SwitchLight to Group--><path codeLine="106" d="M120.344,384.0461 C139.262,400.3831 161.883,417.3781 185,428.9531 C351.171,512.1561 411.169,482.0891 591,528.9531 C622.7,537.2141 657.124,546.5488 688.334,555.1511 " fill="none" id="SwitchLight-to-Group" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="701.036,558.6602,696.3177,553.207,689.4692,555.465,694.1875,560.9182,701.036,558.6602" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="106.9471" y="404.1357">1,*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="674.4208" y="553.144">1,*</text><!--MD5=[5194a56988e433ef527e753955aa7df2]
+link DimmLight to Group--><path codeLine="107" d="M836.843,397.1991 C827.974,433.3311 816.764,478.9981 807.649,516.1291 " fill="none" id="DimmLight-to-Group" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="804.52,528.8771,809.8348,524.0034,807.3801,517.223,802.0653,522.0967,804.52,528.8771" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="815.1461" y="416.9658">1,*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="786.0351" y="517.8054">1,*</text><!--MD5=[d54354760f2ccdf95d38596c8ba9808b]
+link SwitchLight to Scene--><path codeLine="108" d="M94.4221,383.9561 C114.684,425.9161 143.947,486.5131 164.944,529.9951 " fill="none" id="SwitchLight-to-Scene" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="170.632,541.7754,171.6252,534.633,165.4142,530.9692,164.421,538.1116,170.632,541.7754" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="77.4669" y="404.389">1,*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="146.8718" y="530.7428">1,*</text><!--MD5=[877fb5237b1fb1f47e315561827514be]
+link DimmLight to Scene--><path codeLine="109" d="M782.29,397.0371 C766.245,408.9541 748.677,420.3831 731,428.9531 C566.108,508.8971 505.534,473.1111 331,528.9531 C318.688,532.8921 305.904,537.3641 293.289,542.016 " fill="none" id="DimmLight-to-Scene" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="280.755,546.7145,287.7773,548.354,291.9915,542.5025,284.9692,540.863,280.755,546.7145" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="754.6264" y="416.7861">1,*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="288.3542" y="540.2684">1,*</text><!--MD5=[383a8a10a8d39aa549062d029d957ab9]
+link HardwareSwitch to Backend--><path codeLine="110" d="M233.742,140.1031 C253.377,179.1391 279.724,231.5171 300.043,271.9111 " fill="none" id="HardwareSwitch-Backend" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="216.9652" y="159.934">1,*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="288.0011" y="260.897">1</text><!--MD5=[3478c8aa7d6b3190d1a13a5c7c00a3ff]
+link SwitchLight to Backend--><path codeLine="111" d="M135.238,334.4531 C168.63,334.4531 202.022,334.4531 235.413,334.4531 " fill="none" id="SwitchLight-Backend" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="142.8422" y="330.7422">1,*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="219.4772" y="330.9345">1</text><!--MD5=[8df9404b6be30d64359e27f5c88e495e]
+link Backend to DimmLight--><path codeLine="112" d="M393.872,271.8771 C429.659,240.7401 477.201,206.3261 527,189.9531 C592.02,168.5761 616.724,166.4321 681,189.9531 C726.078,206.4491 767.46,240.6581 798.221,271.6511 " fill="none" id="Backend-DimmLight" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="392.6791" y="260.8591">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="19" x="772.2999" y="261.0454">1,*</text><!--MD5=[9d01447ab98fce34279a4128e21c08b6]
+link Backend to DayLightSensor--><path codeLine="113" d="M363.302,397.1991 C385.636,439.8911 414.933,495.8941 435.6,535.4011 " fill="none" id="Backend-DayLightSensor" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="358.3975" y="416.9658">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="423.4656" y="524.439">1</text><!--MD5=[182581f92a4b034ff89b35c50a7774e7]
+link Group to Backend--><path codeLine="114" d="M701.322,542.9387 C637.761,513.0861 550.978,470.7301 477,428.9531 C459.571,419.1111 441.345,408.0721 423.912,397.1241 " fill="none" id="Group-Backend" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="670.5756" y="536.2193">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="425.6367" y="416.8826">1</text><!--MD5=[8732d3b51d47889016c7a96643d77cab]
+link Backend to Scene--><path codeLine="115" d="M296.213,397.1991 C270.866,442.1911 237.189,501.9671 214.84,541.6373 " fill="none" id="Backend-Scene" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="283.9707" y="416.9658">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="193.7296" y="530.9013">0..*</text><!--MD5=[1b17bb57f1b4c3aa478c488e71f275c9]
+link Backend to ESIApp--><path codeLine="116" d="M426.71,334.4531 C460.067,334.4531 493.425,334.4531 526.782,334.4531 " fill="none" id="Backend-ESIApp" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="434.6556" y="330.9345">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="511.0409" y="330.8186">1</text><!--MD5=[f32fe47e4b2cd13ec9c66d00db7629bd]
+link TriggeredEvent to Backend--><path codeLine="117" d="M436.969,121.0871 C417.288,160.5281 385.429,224.3751 361.776,271.7781 " fill="none" id="TriggeredEvent-Backend" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="409.0779" y="140.5899">0..*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="356.872" y="260.7486">1</text><!--MD5=[237e75e4654fa7ffa070aa339e529b33]
+@startuml
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 100 
+
+' vertical distance in px
+skinparam ranksep 100
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title System
+
+
+
+' Classes
+' ============================
+class Group{
++ name: string
++ includedLightsIDs: int array
+-configure_group()
+-set_state()
+-set_brightness_level()
+}
+
+class Scene{
++ name: string
++ includedLightsIDs: int array
+- configure_scene()
+}
+
+class Light{
++ state: boolean
+}
+
+class SwitchLight{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+}
+
+class DimmLight{
++ ID: int
++ brightnessLevel: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+-set_brightness(msg)
+}
+
+class ESIApp{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-handle_user_input()
+-display_active_lights()
+-create_group()
+-create_scene()
+-create_trigger_event()
+-activate_light()
+-activate_group()
+-activate_scene()
+}
+
+class Backend{
+# connectedLightsIDs: int array
+# configuredGroups: list
+# configuredScenes: list
+# configuredTriggerEvents: list
+-handle_sensor_input(msg)
+-handle_switch_input(msg)
+}
+
+class TriggeredEvent{
++triggerValue: auto
+-check_for_trigger()
+}
+
+class DayLightSensor{
++ ID: int
+- brightnessDetected: int
++send(ID, msg)
+-detect_brightness()
+}
+
+class HardwareSwitch{
++ ID: int
+- button1Pressed: boolean
+- button2Pressed: boolean
++send(ID, msg)
+-detect_button_press()
+}
+
+
+' Relations
+' ============================
+Light <|-down- SwitchLight
+Light <|-down- DimmLight
+Light <|-down- Group
+SwitchLight "1,*" -down-o "1,*" Group
+DimmLight "1,*" -down-o "1,*" Group
+SwitchLight "1,*" -down-o "1,*" Scene
+DimmLight "1,*" -down-o "1,*" Scene
+Backend "1" -up- "1,*" HardwareSwitch
+Backend "1" -left- "1,*" SwitchLight
+Backend "1" -right- "1,*" DimmLight
+Backend "1" -down- "1" DayLightSensor
+Backend "1" -left- "0..*" Group
+Backend "1" -right- "0..*" Scene
+Backend "1" -right- "1" ESIApp
+Backend "1" -up- "0..*" TriggeredEvent
+@enduml
+
+@startuml
+
+
+skinparam nodesep 100 
+
+skinparam ranksep 100
+
+
+title System
+
+
+
+class Group{
++ name: string
++ includedLightsIDs: int array
+-configure_group()
+-set_state()
+-set_brightness_level()
+}
+
+class Scene{
++ name: string
++ includedLightsIDs: int array
+- configure_scene()
+}
+
+class Light{
++ state: boolean
+}
+
+class SwitchLight{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+}
+
+class DimmLight{
++ ID: int
++ brightnessLevel: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+-set_brightness(msg)
+}
+
+class ESIApp{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-handle_user_input()
+-display_active_lights()
+-create_group()
+-create_scene()
+-create_trigger_event()
+-activate_light()
+-activate_group()
+-activate_scene()
+}
+
+class Backend{
+# connectedLightsIDs: int array
+# configuredGroups: list
+# configuredScenes: list
+# configuredTriggerEvents: list
+-handle_sensor_input(msg)
+-handle_switch_input(msg)
+}
+
+class TriggeredEvent{
++triggerValue: auto
+-check_for_trigger()
+}
+
+class DayLightSensor{
++ ID: int
+- brightnessDetected: int
++send(ID, msg)
+-detect_brightness()
+}
+
+class HardwareSwitch{
++ ID: int
+- button1Pressed: boolean
+- button2Pressed: boolean
++send(ID, msg)
+-detect_button_press()
+}
+
+
+Light <|-down- SwitchLight
+Light <|-down- DimmLight
+Light <|-down- Group
+SwitchLight "1,*" -down-o "1,*" Group
+DimmLight "1,*" -down-o "1,*" Group
+SwitchLight "1,*" -down-o "1,*" Scene
+DimmLight "1,*" -down-o "1,*" Scene
+Backend "1" -up- "1,*" HardwareSwitch
+Backend "1" -left- "1,*" SwitchLight
+Backend "1" -right- "1,*" DimmLight
+Backend "1" -down- "1" DayLightSensor
+Backend "1" -left- "0..*" Group
+Backend "1" -right- "0..*" Scene
+Backend "1" -right- "1" ESIApp
+Backend "1" -up- "0..*" TriggeredEvent
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 16:40:11 UTC 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

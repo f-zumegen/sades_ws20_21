@@ -1,0 +1,49 @@
+@startuml
+
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 50 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title Car Relations
+
+
+
+' Classes
+' ============================
+class Car{
+}
+
+class Vehicle{
+}
+
+class CarDealership{
+}
+
+class Road{
+}
+
+class SerialNumber{
+}
+
+
+' Relations
+' ============================
+Vehicle <|-down- Car
+Road -left- Car
+CarDealership o-up- Car
+SerialNumber -right-* Car
+
+
+@enduml

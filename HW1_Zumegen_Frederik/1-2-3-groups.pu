@@ -1,0 +1,61 @@
+@startuml
+
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 50 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title Groups
+
+
+
+' Classes
+' ============================
+class Light{
++ state: boolean
+}
+
+class SwitchLight{
+}
+
+class DimmLight{
++ brightnessLevel: int
+}
+
+class Group{
++ name: string
++ includedLightsIDs: int array
+-configure_group()
+-set_state()
+-set_brightness_level()
+}
+
+class Scene{
++ name: string
++ includedLightsIDs: int array
+- configure_scene()
+}
+
+
+' Relations
+' ============================
+Light <|-down- SwitchLight
+Light <|-down- DimmLight
+Light <|-down- Group
+SwitchLight -down-o Group
+DimmLight -down-o Group
+SwitchLight -down-o Scene
+DimmLight -down-o Scene
+
+@enduml

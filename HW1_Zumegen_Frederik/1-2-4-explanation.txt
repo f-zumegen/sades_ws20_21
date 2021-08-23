@@ -1,0 +1,13 @@
+As a ground structure I have a central entity in mind. This I achieve by creating the "Backend" class.
+It functions as the central computing unit which handles all inputs from the daylight sensor, the individual lights and
+the smartphone app (the user).
+
+Besides that, I basically combine the two previous task and declare a couple of functions for real world
+objects (lights, sensor, hardware switch) and two classes that represent a group and a scene.
+
+I include the most class methods in the ESI App class since it is the user who has full control over the entire system.
+The user can create scenes, groups or switch on lights individually.
+
+Furthermore, I introduce a Light class. The Light class is only abstract, there will be no objects created
+with that class, but its attribute "state", which represents the state of a light (on/off), is passed on by inheritance
+to the SwitchLight, DimmLight and the class Group, since a group of lights executes commands like an individual light.

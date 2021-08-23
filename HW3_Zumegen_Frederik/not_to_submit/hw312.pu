@@ -1,0 +1,72 @@
+@startuml
+
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 50 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title Strategy Pattern Example
+
+
+
+' Classes
+' ============================
+class packet{
++ data: string
+}
+
+abstract class Process{
+{abstract} processing(p: packet)
+}
+
+class PacketHandler{
++ packet: packet
+- process: Process
+setProcess(process: Process)
+doProcessing()
+}
+
+class processSSH{
+processing(p: packet)
+}
+
+class processTLS{
+processing(p: packet)
+}
+
+class processIPSEC{
+processing(p: packet)
+}
+
+class processHTTP{
+processing(p: packet)
+}
+
+class Client {
+}
+
+' Relations
+' ============================
+Client -right-> PacketHandler
+Client -down-> packet
+packet "1" -right- "*" PacketHandler
+PacketHandler o-- Process
+Process <|-- processSSH
+Process <|-- processTLS
+Process <|-- processIPSEC
+Process <|-- processHTTP
+
+
+
+@enduml

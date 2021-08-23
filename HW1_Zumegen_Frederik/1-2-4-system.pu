@@ -1,0 +1,121 @@
+@startuml
+
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 100 
+
+' vertical distance in px
+skinparam ranksep 100
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title System
+
+
+
+' Classes
+' ============================
+class Group{
++ name: string
++ includedLightsIDs: int array
+-configure_group()
+-set_state()
+-set_brightness_level()
+}
+
+class Scene{
++ name: string
++ includedLightsIDs: int array
+- configure_scene()
+}
+
+class Light{
++ state: boolean
+}
+
+class SwitchLight{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+}
+
+class DimmLight{
++ ID: int
++ brightnessLevel: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+-set_brightness(msg)
+}
+
+class ESIApp{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-handle_user_input()
+-display_active_lights()
+-create_group()
+-create_scene()
+-create_trigger_event()
+-activate_light()
+-activate_group()
+-activate_scene()
+}
+
+class Backend{
+# connectedLightsIDs: int array
+# configuredGroups: list
+# configuredScenes: list
+# configuredTriggerEvents: list
+-handle_sensor_input(msg)
+-handle_switch_input(msg)
+}
+
+class TriggeredEvent{
++triggerValue: auto
+-check_for_trigger()
+}
+
+class DayLightSensor{
++ ID: int
+- brightnessDetected: int
++send(ID, msg)
+-detect_brightness()
+}
+
+class HardwareSwitch{
++ ID: int
+- button1Pressed: boolean
+- button2Pressed: boolean
++send(ID, msg)
+-detect_button_press()
+}
+
+
+' Relations
+' ============================
+Light <|-down- SwitchLight
+Light <|-down- DimmLight
+Light <|-down- Group
+SwitchLight "1,*" -down-o "1,*" Group
+DimmLight "1,*" -down-o "1,*" Group
+SwitchLight "1,*" -down-o "1,*" Scene
+DimmLight "1,*" -down-o "1,*" Scene
+Backend "1" -up- "1,*" HardwareSwitch
+Backend "1" -left- "1,*" SwitchLight
+Backend "1" -right- "1,*" DimmLight
+Backend "1" -down- "1" DayLightSensor
+Backend "1" -left- "0..*" Group
+Backend "1" -right- "0..*" Scene
+Backend "1" -right- "1" ESIApp
+Backend "1" -up- "0..*" TriggeredEvent
+
+@enduml

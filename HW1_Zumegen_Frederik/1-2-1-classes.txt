@@ -1,0 +1,9 @@
+Classes:
+- Light
+- SwitchLight
+- DimmLight
+- LightsGroup
+- Scene
+- DayLightSensor
+- ESIApp
+- HardwareSwitch

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="491px" preserveAspectRatio="none" style="width:665px;height:491px;" version="1.1" viewBox="0 0 665 491" width="665px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qvjdfifofyvp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="176" x="238.25" y="16.708">Real World Objects</text><!--MD5=[999e49f72af8639b360af99f8c1ff713]
+class SwitchLight--><rect codeLine="23" fill="#FEFECE" filter="url(#f1qvjdfifofyvp)" height="112.0234" id="SwitchLight" style="stroke:#A80036;stroke-width:1.5;" width="128" x="7" y="202.9531"/><ellipse cx="35.05" cy="218.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M37.3938,214.625 C36.4563,214.1875 35.8625,214.0469 34.9875,214.0469 C32.3625,214.0469 30.3625,216.125 30.3625,218.8438 L30.3625,219.9688 C30.3625,222.5469 32.4719,224.4375 35.3625,224.4375 C36.5813,224.4375 37.7375,224.1406 38.4875,223.5938 C39.0656,223.1875 39.3938,222.7344 39.3938,222.3438 C39.3938,221.8906 39.0031,221.5 38.5344,221.5 C38.3156,221.5 38.1125,221.5781 37.925,221.7656 C37.4719,222.25 37.4719,222.25 37.2844,222.3438 C36.8625,222.6094 36.175,222.7344 35.4094,222.7344 C33.3625,222.7344 32.0656,221.6406 32.0656,219.9375 L32.0656,218.8438 C32.0656,217.0625 33.3156,215.75 35.05,215.75 C35.6281,215.75 36.2375,215.9063 36.7063,216.1563 C37.1906,216.4375 37.3625,216.6563 37.4563,217.0625 C37.5188,217.4688 37.55,217.5938 37.6906,217.7188 C37.8313,217.8594 38.0656,217.9688 38.2844,217.9688 C38.55,217.9688 38.8156,217.8281 38.9875,217.6094 C39.0969,217.4531 39.1281,217.2656 39.1281,216.8438 L39.1281,215.4219 C39.1281,214.9844 39.1125,214.8594 39.0188,214.7031 C38.8625,214.4375 38.5813,214.2969 38.2844,214.2969 C37.9875,214.2969 37.7844,214.3906 37.5656,214.7031 L37.3938,214.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="51.95" y="223.1074">SwitchLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="134" y1="234.9531" y2="234.9531"/><ellipse cx="18" cy="245.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="27" y="249.1636">ID: int</text><ellipse cx="18" cy="258.7578" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="27" y="261.9683">state: boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="134" y1="268.5625" y2="268.5625"/><ellipse cx="18" cy="279.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="27" y="282.7729">send(ID, msg)</text><ellipse cx="18" cy="292.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="27" y="295.5776">recv(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="302.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="27" y="308.3823">switch_state(msg)</text><!--MD5=[a54edd4c870d7b3a603adac8183ae883]
+class DimmLight--><rect codeLine="31" fill="#FEFECE" filter="url(#f1qvjdfifofyvp)" height="137.6328" id="DimmLight" style="stroke:#A80036;stroke-width:1.5;" width="141" x="510.5" y="189.9531"/><ellipse cx="546.65" cy="205.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M548.9938,201.625 C548.0563,201.1875 547.4625,201.0469 546.5875,201.0469 C543.9625,201.0469 541.9625,203.125 541.9625,205.8438 L541.9625,206.9688 C541.9625,209.5469 544.0719,211.4375 546.9625,211.4375 C548.1813,211.4375 549.3375,211.1406 550.0875,210.5938 C550.6656,210.1875 550.9938,209.7344 550.9938,209.3438 C550.9938,208.8906 550.6031,208.5 550.1344,208.5 C549.9156,208.5 549.7125,208.5781 549.525,208.7656 C549.0719,209.25 549.0719,209.25 548.8844,209.3438 C548.4625,209.6094 547.775,209.7344 547.0094,209.7344 C544.9625,209.7344 543.6656,208.6406 543.6656,206.9375 L543.6656,205.8438 C543.6656,204.0625 544.9156,202.75 546.65,202.75 C547.2281,202.75 547.8375,202.9063 548.3063,203.1563 C548.7906,203.4375 548.9625,203.6563 549.0563,204.0625 C549.1188,204.4688 549.15,204.5938 549.2906,204.7188 C549.4313,204.8594 549.6656,204.9688 549.8844,204.9688 C550.15,204.9688 550.4156,204.8281 550.5875,204.6094 C550.6969,204.4531 550.7281,204.2656 550.7281,203.8438 L550.7281,202.4219 C550.7281,201.9844 550.7125,201.8594 550.6188,201.7031 C550.4625,201.4375 550.1813,201.2969 549.8844,201.2969 C549.5875,201.2969 549.3844,201.3906 549.1656,201.7031 L548.9938,201.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="565.35" y="210.1074">DimmLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="511.5" x2="650.5" y1="221.9531" y2="221.9531"/><ellipse cx="521.5" cy="232.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="530.5" y="236.1636">ID: int</text><ellipse cx="521.5" cy="245.7578" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="530.5" y="248.9683">state: boolean</text><ellipse cx="521.5" cy="258.5625" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="530.5" y="261.7729">brightnessLevel: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="511.5" x2="650.5" y1="268.3672" y2="268.3672"/><ellipse cx="521.5" cy="279.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="530.5" y="282.5776">send(ID, msg)</text><ellipse cx="521.5" cy="292.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="530.5" y="295.3823">recv(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="518.5" y="301.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="530.5" y="308.187">switch_state(msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="518.5" y="314.7813"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="115" x="530.5" y="320.9917">set_brightness(msg)</text><!--MD5=[f82d76eff182c810438097a2d656d907]
+class ESIApp--><rect codeLine="41" fill="#FEFECE" filter="url(#f1qvjdfifofyvp)" height="124.8281" id="ESIApp" style="stroke:#A80036;stroke-width:1.5;" width="175" x="235.5" y="196.4531"/><ellipse cx="297.75" cy="212.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M300.0938,208.125 C299.1563,207.6875 298.5625,207.5469 297.6875,207.5469 C295.0625,207.5469 293.0625,209.625 293.0625,212.3438 L293.0625,213.4688 C293.0625,216.0469 295.1719,217.9375 298.0625,217.9375 C299.2813,217.9375 300.4375,217.6406 301.1875,217.0938 C301.7656,216.6875 302.0938,216.2344 302.0938,215.8438 C302.0938,215.3906 301.7031,215 301.2344,215 C301.0156,215 300.8125,215.0781 300.625,215.2656 C300.1719,215.75 300.1719,215.75 299.9844,215.8438 C299.5625,216.1094 298.875,216.2344 298.1094,216.2344 C296.0625,216.2344 294.7656,215.1406 294.7656,213.4375 L294.7656,212.3438 C294.7656,210.5625 296.0156,209.25 297.75,209.25 C298.3281,209.25 298.9375,209.4063 299.4063,209.6563 C299.8906,209.9375 300.0625,210.1563 300.1563,210.5625 C300.2188,210.9688 300.25,211.0938 300.3906,211.2188 C300.5313,211.3594 300.7656,211.4688 300.9844,211.4688 C301.25,211.4688 301.5156,211.3281 301.6875,211.1094 C301.7969,210.9531 301.8281,210.7656 301.8281,210.3438 L301.8281,208.9219 C301.8281,208.4844 301.8125,208.3594 301.7188,208.2031 C301.5625,207.9375 301.2813,207.7969 300.9844,207.7969 C300.6875,207.7969 300.4844,207.8906 300.2656,208.2031 L300.0938,208.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="42" x="318.25" y="216.6074">ESIApp</text><line style="stroke:#A80036;stroke-width:1.5;" x1="236.5" x2="409.5" y1="228.4531" y2="228.4531"/><ellipse cx="246.5" cy="239.4531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="255.5" y="242.6636">ID: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="236.5" x2="409.5" y1="249.2578" y2="249.2578"/><ellipse cx="246.5" cy="260.2578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="255.5" y="263.4683">send(ID, msg)</text><ellipse cx="246.5" cy="273.0625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="76" x="255.5" y="276.2729">recv(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="243.5" y="282.8672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="149" x="255.5" y="289.0776">handle_sensor_input(msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="243.5" y="295.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="146" x="255.5" y="301.8823">handle_switch_input(msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="243.5" y="308.4766"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="255.5" y="314.687">detect_user_input()</text><!--MD5=[80a979c5cb1fa74e07dd1637efa6e0a9]
+class DayLightSensor--><rect codeLine="50" fill="#FEFECE" filter="url(#f1qvjdfifofyvp)" height="99.2188" id="DayLightSensor" style="stroke:#A80036;stroke-width:1.5;" width="160" x="243" y="377.9531"/><ellipse cx="273.3" cy="393.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M275.6438,389.625 C274.7063,389.1875 274.1125,389.0469 273.2375,389.0469 C270.6125,389.0469 268.6125,391.125 268.6125,393.8438 L268.6125,394.9688 C268.6125,397.5469 270.7219,399.4375 273.6125,399.4375 C274.8313,399.4375 275.9875,399.1406 276.7375,398.5938 C277.3156,398.1875 277.6438,397.7344 277.6438,397.3438 C277.6438,396.8906 277.2531,396.5 276.7844,396.5 C276.5656,396.5 276.3625,396.5781 276.175,396.7656 C275.7219,397.25 275.7219,397.25 275.5344,397.3438 C275.1125,397.6094 274.425,397.7344 273.6594,397.7344 C271.6125,397.7344 270.3156,396.6406 270.3156,394.9375 L270.3156,393.8438 C270.3156,392.0625 271.5656,390.75 273.3,390.75 C273.8781,390.75 274.4875,390.9063 274.9563,391.1563 C275.4406,391.4375 275.6125,391.6563 275.7063,392.0625 C275.7688,392.4688 275.8,392.5938 275.9406,392.7188 C276.0813,392.8594 276.3156,392.9688 276.5344,392.9688 C276.8,392.9688 277.0656,392.8281 277.2375,392.6094 C277.3469,392.4531 277.3781,392.2656 277.3781,391.8438 L277.3781,390.4219 C277.3781,389.9844 277.3625,389.8594 277.2688,389.7031 C277.1125,389.4375 276.8313,389.2969 276.5344,389.2969 C276.2375,389.2969 276.0344,389.3906 275.8156,389.7031 L275.6438,389.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="290.7" y="398.1074">DayLightSensor</text><line style="stroke:#A80036;stroke-width:1.5;" x1="244" x2="402" y1="409.9531" y2="409.9531"/><ellipse cx="254" cy="420.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="263" y="424.1636">ID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="251" y="430.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="134" x="263" y="436.9683">brightnessDetected: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="244" x2="402" y1="443.5625" y2="443.5625"/><ellipse cx="254" cy="454.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="263" y="457.7729">send(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="251" y="464.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="263" y="470.5776">detect_brightness()</text><!--MD5=[79d86d11b376658584aaf6110ce7a55f]
+class HardwareSwitch--><rect codeLine="57" fill="#FEFECE" filter="url(#f1qvjdfifofyvp)" height="112.0234" id="HardwareSwitch" style="stroke:#A80036;stroke-width:1.5;" width="167" x="239.5" y="27.9531"/><ellipse cx="271.15" cy="43.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M273.4938,39.625 C272.5563,39.1875 271.9625,39.0469 271.0875,39.0469 C268.4625,39.0469 266.4625,41.125 266.4625,43.8438 L266.4625,44.9688 C266.4625,47.5469 268.5719,49.4375 271.4625,49.4375 C272.6813,49.4375 273.8375,49.1406 274.5875,48.5938 C275.1656,48.1875 275.4938,47.7344 275.4938,47.3438 C275.4938,46.8906 275.1031,46.5 274.6344,46.5 C274.4156,46.5 274.2125,46.5781 274.025,46.7656 C273.5719,47.25 273.5719,47.25 273.3844,47.3438 C272.9625,47.6094 272.275,47.7344 271.5094,47.7344 C269.4625,47.7344 268.1656,46.6406 268.1656,44.9375 L268.1656,43.8438 C268.1656,42.0625 269.4156,40.75 271.15,40.75 C271.7281,40.75 272.3375,40.9063 272.8063,41.1563 C273.2906,41.4375 273.4625,41.6563 273.5563,42.0625 C273.6188,42.4688 273.65,42.5938 273.7906,42.7188 C273.9313,42.8594 274.1656,42.9688 274.3844,42.9688 C274.65,42.9688 274.9156,42.8281 275.0875,42.6094 C275.1969,42.4531 275.2281,42.2656 275.2281,41.8438 L275.2281,40.4219 C275.2281,39.9844 275.2125,39.8594 275.1188,39.7031 C274.9625,39.4375 274.6813,39.2969 274.3844,39.2969 C274.0875,39.2969 273.8844,39.3906 273.6656,39.7031 L273.4938,39.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="98" x="288.85" y="48.1074">HardwareSwitch</text><line style="stroke:#A80036;stroke-width:1.5;" x1="240.5" x2="405.5" y1="59.9531" y2="59.9531"/><ellipse cx="250.5" cy="70.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="33" x="259.5" y="74.1636">ID: int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="80.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="259.5" y="86.9683">button1Pressed: boolean</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="93.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="141" x="259.5" y="99.7729">button2Pressed: boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="240.5" x2="405.5" y1="106.3672" y2="106.3672"/><ellipse cx="250.5" cy="117.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="79" x="259.5" y="120.5776">send(ID, msg)</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="247.5" y="127.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="124" x="259.5" y="133.3823">detect_button_press()</text><!--MD5=[66d3796e56f6d864680b5e63af43daa2]
+link HardwareSwitch to ESIApp--><path codeLine="67" d="M323,140.1671 C323,158.0651 323,178.0291 323,196.3611 " fill="none" id="HardwareSwitch-ESIApp" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="274.3406" y="185.3412">reports</text><!--MD5=[696e8666bda901816ae1120c22cf1d64]
+link SwitchLight to ESIApp--><path codeLine="68" d="M135.477,290.9391 C168.806,301.7891 202.135,303.8221 235.465,297.0391 " fill="none" id="SwitchLight-ESIApp" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="142.8558" y="289.8082">commands</text><!--MD5=[696e8666bda901816ae1120c22cf1d64]
+link SwitchLight to ESIApp--><path codeLine="69" d="M135.477,226.9671 C168.806,216.1171 202.135,214.0841 235.465,220.8671 " fill="none" id="SwitchLight-ESIApp-1" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="181.3476" y="214.5975">reports</text><!--MD5=[a8012586d992dbcb3023e368c90390f4]
+link ESIApp to DimmLight--><path codeLine="70" d="M410.68,301.0191 C443.945,308.7621 477.211,307.1551 510.477,296.1961 " fill="none" id="ESIApp-DimmLight" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="72" x="430.6542" y="295.4656">commands</text><!--MD5=[a8012586d992dbcb3023e368c90390f4]
+link ESIApp to DimmLight--><path codeLine="71" d="M410.68,216.8871 C443.945,209.1441 477.211,210.7511 510.477,221.7101 " fill="none" id="ESIApp-DimmLight-1" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="418.4622" y="210.4796">reports</text><!--MD5=[4ed8f5f8fd1e141f5f34cb578400d0d2]
+link ESIApp to DayLightSensor--><path codeLine="72" d="M323,321.4781 C323,340.0981 323,360.2771 323,377.9212 " fill="none" id="ESIApp-DayLightSensor" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="46" x="274.4844" y="341.2207">reports</text><!--MD5=[4c2b6bb59b9c2a8970609cd782643a8a]
+@startuml
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 100 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title Real World Objects
+
+
+
+' Classes
+' ============================
+class SwitchLight{
++ ID: int
++ state: boolean
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+}
+
+class DimmLight{
++ ID: int
++ state: boolean
++ brightnessLevel: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+-set_brightness(msg)
+}
+
+class ESIApp{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-handle_sensor_input(msg)
+-handle_switch_input(msg)
+-detect_user_input()
+}
+
+class DayLightSensor{
++ ID: int
+- brightnessDetected: int
++send(ID, msg)
+-detect_brightness()
+}
+
+class HardwareSwitch{
++ ID: int
+- button1Pressed: boolean
+- button2Pressed: boolean
++send(ID, msg)
+-detect_button_press()
+}
+
+' Relations
+' ============================
+ESIApp "reports" -up- HardwareSwitch
+ESIApp -left- "commands" SwitchLight
+ESIApp "reports" -left- SwitchLight
+ESIApp -right- "commands" DimmLight
+ESIApp "reports" -right- DimmLight
+ESIApp "reports" -down- DayLightSensor
+@enduml
+
+@startuml
+
+
+skinparam nodesep 100 
+
+skinparam ranksep 50
+
+
+title Real World Objects
+
+
+
+class SwitchLight{
++ ID: int
++ state: boolean
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+}
+
+class DimmLight{
++ ID: int
++ state: boolean
++ brightnessLevel: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+-set_brightness(msg)
+}
+
+class ESIApp{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-handle_sensor_input(msg)
+-handle_switch_input(msg)
+-detect_user_input()
+}
+
+class DayLightSensor{
++ ID: int
+- brightnessDetected: int
++send(ID, msg)
+-detect_brightness()
+}
+
+class HardwareSwitch{
++ ID: int
+- button1Pressed: boolean
+- button2Pressed: boolean
++send(ID, msg)
+-detect_button_press()
+}
+
+ESIApp "reports" -up- HardwareSwitch
+ESIApp -left- "commands" SwitchLight
+ESIApp "reports" -left- SwitchLight
+ESIApp -right- "commands" DimmLight
+ESIApp "reports" -right- DimmLight
+ESIApp "reports" -down- DayLightSensor
+@enduml
+
+PlantUML version 1.2020.21beta7(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

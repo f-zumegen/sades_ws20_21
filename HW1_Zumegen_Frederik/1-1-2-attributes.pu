@@ -1,0 +1,56 @@
+@startuml
+
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 50 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title Car Attributes
+
+
+
+' Classes
+' ============================
+class Car{
++ passengerCount: unsigned int
+- model: string
+# fuelLevel: double
+}
+
+class Driver{
++ age: unsigned int
+- name: string
+}
+
+class CarDealership{
++ address: string
+}
+
+class Wheel{
+# tirePressure: double
+- size: int[2]
+}
+
+class Seat{
++ color: string
+}
+
+' Relations
+' ============================
+Driver "*" -down- "*" Car
+Wheel "4" -left-o "1" Car
+CarDealership "1" o-up- "*" Car
+Seat "1,*" -right-* "1" Car
+
+@enduml

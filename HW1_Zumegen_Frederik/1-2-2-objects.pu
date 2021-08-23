@@ -1,0 +1,78 @@
+@startuml
+
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 100 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title Real World Objects
+
+
+
+' Classes
+' ============================
+class SwitchLight{
++ ID: int
++ state: boolean
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+}
+
+class DimmLight{
++ ID: int
++ state: boolean
++ brightnessLevel: int
++send(ID, msg)
++recv(ID, msg)
+-switch_state(msg)
+-set_brightness(msg)
+}
+
+class ESIApp{
++ ID: int
++send(ID, msg)
++recv(ID, msg)
+-handle_sensor_input(msg)
+-handle_switch_input(msg)
+-detect_user_input()
+}
+
+class DayLightSensor{
++ ID: int
+- brightnessDetected: int
++send(ID, msg)
+-detect_brightness()
+}
+
+class HardwareSwitch{
++ ID: int
+- button1Pressed: boolean
+- button2Pressed: boolean
++send(ID, msg)
+-detect_button_press()
+}
+
+' Relations
+' ============================
+ESIApp "reports" -up- HardwareSwitch
+ESIApp -left- "commands" SwitchLight
+ESIApp "reports" -left- SwitchLight
+ESIApp -right- "commands" DimmLight
+ESIApp "reports" -right- DimmLight
+ESIApp "reports" -down- DayLightSensor
+
+
+
+@enduml

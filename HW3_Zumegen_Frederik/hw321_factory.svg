@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="290px" preserveAspectRatio="none" style="width:806px;height:290px;" version="1.1" viewBox="0 0 806 290" width="806px" zoomAndPan="magnify"><defs><filter height="300%" id="f1muj3xmyh2xr6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="240" x="276.75" y="16.708">3-2-1 Smart Light Factory</text><!--MD5=[0cfe8f31e9b96f6bebb97063dcbda0f7]
+class LightFactory--><rect codeLine="23" fill="#FEFECE" filter="url(#f1muj3xmyh2xr6)" height="73.6094" id="LightFactory" style="stroke:#A80036;stroke-width:1.5;" width="190" x="251.5" y="46.9531"/><ellipse cx="304.25" cy="62.9531" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M306.3281,64.7656 L306.7188,65.75 L306.3281,65.75 C305.875,65.75 305.7656,65.7656 305.6094,65.875 C305.3594,66.0313 305.2031,66.3125 305.2031,66.6094 C305.2031,66.875 305.3438,67.125 305.5625,67.2813 C305.7031,67.4063 305.9063,67.4531 306.3281,67.4531 L308.6875,67.4531 C309.0469,67.4531 309.2656,67.4219 309.4063,67.3281 C309.6563,67.1875 309.8125,66.8906 309.8125,66.6094 C309.8125,66.3281 309.6719,66.0781 309.4531,65.9219 C309.2813,65.7813 309.125,65.75 308.6563,65.75 L305.2656,57.5469 L301.5938,57.5469 C301.1406,57.5469 301.0156,57.5625 300.8594,57.6563 C300.6094,57.8281 300.4531,58.1094 300.4531,58.3906 C300.4531,58.6719 300.5938,58.9219 300.8125,59.0938 C300.9844,59.2031 301.1563,59.2344 301.5938,59.2344 L302.6719,59.2344 L300.0313,65.75 C299.6094,65.75 299.4531,65.7656 299.2969,65.875 C299.0469,66.0313 298.8906,66.3125 298.8906,66.6094 C298.8906,67.1719 299.2656,67.4531 300.0156,67.4531 L302.2813,67.4531 C302.6406,67.4531 302.8594,67.4219 302.9844,67.3281 C303.25,67.1875 303.3906,66.8906 303.3906,66.6094 C303.3906,66.3281 303.2656,66.0781 303.0469,65.9063 C302.875,65.7813 302.7344,65.75 302.2813,65.75 L301.8906,65.75 L302.2813,64.7656 L306.3281,64.7656 Z M305.625,63.0625 L302.9531,63.0625 L304.2969,59.7969 L305.625,63.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="324.75" y="67.1074">LightFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="252.5" x2="440.5" y1="78.9531" y2="78.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="252.5" x2="440.5" y1="86.9531" y2="86.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" font-style="italic" lengthAdjust="spacing" textLength="178" x="257.5" y="101.1636">createLight(name: string): Light</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="257.5" y="113.9683">someOperation()</text><!--MD5=[7c1a0278dec21c72584b17e1785fd623]
+class Light--><rect codeLine="28" fill="#FEFECE" filter="url(#f1muj3xmyh2xr6)" height="112.0234" id="Light" style="stroke:#A80036;stroke-width:1.5;" width="123" x="502" y="27.9531"/><ellipse cx="544" cy="43.9531" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M544.9531,40.7344 L546.6719,40.7344 C547.0625,40.7344 547.25,40.7031 547.375,40.625 C547.6406,40.4688 547.7813,40.1875 547.7813,39.8906 C547.7813,39.625 547.6719,39.3594 547.4375,39.1875 C547.2656,39.0781 547.125,39.0469 546.6719,39.0469 L541.5313,39.0469 C541.0938,39.0469 540.9688,39.0625 540.8125,39.1563 C540.5625,39.3125 540.4063,39.6094 540.4063,39.8906 C540.4063,40.1719 540.5469,40.4219 540.7656,40.5938 C540.9219,40.7031 541.1094,40.7344 541.5313,40.7344 L543.25,40.7344 L543.25,47.25 L541.5313,47.25 C541.0938,47.25 540.9688,47.2656 540.8125,47.375 C540.5625,47.5313 540.4063,47.8125 540.4063,48.1094 C540.4063,48.3594 540.5469,48.625 540.7656,48.7813 C540.9219,48.9063 541.125,48.9531 541.5313,48.9531 L546.6719,48.9531 C547.4219,48.9531 547.7813,48.6719 547.7813,48.1094 C547.7813,47.8281 547.6719,47.5781 547.4375,47.4063 C547.2656,47.2813 547.125,47.25 546.6719,47.25 L544.9531,47.25 L544.9531,40.7344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="31" x="564" y="48.1074">Light</text><line style="stroke:#A80036;stroke-width:1.5;" x1="503" x2="624" y1="59.9531" y2="59.9531"/><ellipse cx="513" cy="70.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="522" y="74.1636">name: string</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="510" y="80.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="522" y="86.9683">state: boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="503" x2="624" y1="93.5625" y2="93.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="508" y="107.7729">switchOn()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="508" y="120.5776">switchOff()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="508" y="133.3823">getState(): boolean</text><!--MD5=[23ebd66c8ed1daf35424c4aec9df7532]
+class SwitchLightFactory--><rect codeLine="38" fill="#FEFECE" filter="url(#f1muj3xmyh2xr6)" height="60.8047" id="SwitchLightFactory" style="stroke:#A80036;stroke-width:1.5;" width="189" x="7" y="202.4531"/><ellipse cx="42.25" cy="218.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M44.5938,214.125 C43.6563,213.6875 43.0625,213.5469 42.1875,213.5469 C39.5625,213.5469 37.5625,215.625 37.5625,218.3438 L37.5625,219.4688 C37.5625,222.0469 39.6719,223.9375 42.5625,223.9375 C43.7813,223.9375 44.9375,223.6406 45.6875,223.0938 C46.2656,222.6875 46.5938,222.2344 46.5938,221.8438 C46.5938,221.3906 46.2031,221 45.7344,221 C45.5156,221 45.3125,221.0781 45.125,221.2656 C44.6719,221.75 44.6719,221.75 44.4844,221.8438 C44.0625,222.1094 43.375,222.2344 42.6094,222.2344 C40.5625,222.2344 39.2656,221.1406 39.2656,219.4375 L39.2656,218.3438 C39.2656,216.5625 40.5156,215.25 42.25,215.25 C42.8281,215.25 43.4375,215.4063 43.9063,215.6563 C44.3906,215.9375 44.5625,216.1563 44.6563,216.5625 C44.7188,216.9688 44.75,217.0938 44.8906,217.2188 C45.0313,217.3594 45.2656,217.4688 45.4844,217.4688 C45.75,217.4688 46.0156,217.3281 46.1875,217.1094 C46.2969,216.9531 46.3281,216.7656 46.3281,216.3438 L46.3281,214.9219 C46.3281,214.4844 46.3125,214.3594 46.2188,214.2031 C46.0625,213.9375 45.7813,213.7969 45.4844,213.7969 C45.1875,213.7969 44.9844,213.8906 44.7656,214.2031 L44.5938,214.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="112" x="60.75" y="222.6074">SwitchLightFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="195" y1="234.4531" y2="234.4531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="195" y1="242.4531" y2="242.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="13" y="256.6636">createLight(name: string): Light</text><!--MD5=[4b958a291f9132509187a3e8b765e630]
+class DimmLightFactory--><rect codeLine="42" fill="#FEFECE" filter="url(#f1muj3xmyh2xr6)" height="60.8047" id="DimmLightFactory" style="stroke:#A80036;stroke-width:1.5;" width="189" x="256" y="202.4531"/><ellipse cx="293.5" cy="218.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M295.8438,214.125 C294.9063,213.6875 294.3125,213.5469 293.4375,213.5469 C290.8125,213.5469 288.8125,215.625 288.8125,218.3438 L288.8125,219.4688 C288.8125,222.0469 290.9219,223.9375 293.8125,223.9375 C295.0313,223.9375 296.1875,223.6406 296.9375,223.0938 C297.5156,222.6875 297.8438,222.2344 297.8438,221.8438 C297.8438,221.3906 297.4531,221 296.9844,221 C296.7656,221 296.5625,221.0781 296.375,221.2656 C295.9219,221.75 295.9219,221.75 295.7344,221.8438 C295.3125,222.1094 294.625,222.2344 293.8594,222.2344 C291.8125,222.2344 290.5156,221.1406 290.5156,219.4375 L290.5156,218.3438 C290.5156,216.5625 291.7656,215.25 293.5,215.25 C294.0781,215.25 294.6875,215.4063 295.1563,215.6563 C295.6406,215.9375 295.8125,216.1563 295.9063,216.5625 C295.9688,216.9688 296,217.0938 296.1406,217.2188 C296.2813,217.3594 296.5156,217.4688 296.7344,217.4688 C297,217.4688 297.2656,217.3281 297.4375,217.1094 C297.5469,216.9531 297.5781,216.7656 297.5781,216.3438 L297.5781,214.9219 C297.5781,214.4844 297.5625,214.3594 297.4688,214.2031 C297.3125,213.9375 297.0313,213.7969 296.7344,213.7969 C296.4375,213.7969 296.2344,213.8906 296.0156,214.2031 L295.8438,214.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="312.5" y="222.6074">DimmLightFactory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="257" x2="444" y1="234.4531" y2="234.4531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="257" x2="444" y1="242.4531" y2="242.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="262" y="256.6636">createLight(name: string): Light</text><!--MD5=[999e49f72af8639b360af99f8c1ff713]
+class SwitchLight--><rect codeLine="46" fill="#FEFECE" filter="url(#f1muj3xmyh2xr6)" height="48" id="SwitchLight" style="stroke:#A80036;stroke-width:1.5;" width="99" x="511" y="208.9531"/><ellipse cx="526" cy="224.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M528.3438,220.625 C527.4063,220.1875 526.8125,220.0469 525.9375,220.0469 C523.3125,220.0469 521.3125,222.125 521.3125,224.8438 L521.3125,225.9688 C521.3125,228.5469 523.4219,230.4375 526.3125,230.4375 C527.5313,230.4375 528.6875,230.1406 529.4375,229.5938 C530.0156,229.1875 530.3438,228.7344 530.3438,228.3438 C530.3438,227.8906 529.9531,227.5 529.4844,227.5 C529.2656,227.5 529.0625,227.5781 528.875,227.7656 C528.4219,228.25 528.4219,228.25 528.2344,228.3438 C527.8125,228.6094 527.125,228.7344 526.3594,228.7344 C524.3125,228.7344 523.0156,227.6406 523.0156,225.9375 L523.0156,224.8438 C523.0156,223.0625 524.2656,221.75 526,221.75 C526.5781,221.75 527.1875,221.9063 527.6563,222.1563 C528.1406,222.4375 528.3125,222.6563 528.4063,223.0625 C528.4688,223.4688 528.5,223.5938 528.6406,223.7188 C528.7813,223.8594 529.0156,223.9688 529.2344,223.9688 C529.5,223.9688 529.7656,223.8281 529.9375,223.6094 C530.0469,223.4531 530.0781,223.2656 530.0781,222.8438 L530.0781,221.4219 C530.0781,220.9844 530.0625,220.8594 529.9688,220.7031 C529.8125,220.4375 529.5313,220.2969 529.2344,220.2969 C528.9375,220.2969 528.7344,220.3906 528.5156,220.7031 L528.3438,220.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="67" x="540" y="229.1074">SwitchLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="512" x2="609" y1="240.9531" y2="240.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="512" x2="609" y1="248.9531" y2="248.9531"/><!--MD5=[a54edd4c870d7b3a603adac8183ae883]
+class DimmLight--><rect codeLine="49" fill="#FEFECE" filter="url(#f1muj3xmyh2xr6)" height="86.4141" id="DimmLight" style="stroke:#A80036;stroke-width:1.5;" width="122" x="670.5" y="189.9531"/><ellipse cx="698.1" cy="205.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M700.4438,201.625 C699.5063,201.1875 698.9125,201.0469 698.0375,201.0469 C695.4125,201.0469 693.4125,203.125 693.4125,205.8438 L693.4125,206.9688 C693.4125,209.5469 695.5219,211.4375 698.4125,211.4375 C699.6313,211.4375 700.7875,211.1406 701.5375,210.5938 C702.1156,210.1875 702.4438,209.7344 702.4438,209.3438 C702.4438,208.8906 702.0531,208.5 701.5844,208.5 C701.3656,208.5 701.1625,208.5781 700.975,208.7656 C700.5219,209.25 700.5219,209.25 700.3344,209.3438 C699.9125,209.6094 699.225,209.7344 698.4594,209.7344 C696.4125,209.7344 695.1156,208.6406 695.1156,206.9375 L695.1156,205.8438 C695.1156,204.0625 696.3656,202.75 698.1,202.75 C698.6781,202.75 699.2875,202.9063 699.7563,203.1563 C700.2406,203.4375 700.4125,203.6563 700.5063,204.0625 C700.5688,204.4688 700.6,204.5938 700.7406,204.7188 C700.8813,204.8594 701.1156,204.9688 701.3344,204.9688 C701.6,204.9688 701.8656,204.8281 702.0375,204.6094 C702.1469,204.4531 702.1781,204.2656 702.1781,203.8438 L702.1781,202.4219 C702.1781,201.9844 702.1625,201.8594 702.0688,201.7031 C701.9125,201.4375 701.6313,201.2969 701.3344,201.2969 C701.0375,201.2969 700.8344,201.3906 700.6156,201.7031 L700.4438,201.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="714.9" y="210.1074">DimmLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="671.5" x2="791.5" y1="221.9531" y2="221.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="678.5" y="229.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="690.5" y="236.1636">dimm_lvl: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="671.5" x2="791.5" y1="242.7578" y2="242.7578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="676.5" y="256.9683">setDimmLvl(lvl: int)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="676.5" y="269.7729">getDimmLvl(): int</text><!--MD5=[df25f2eec52b4b02f7c796756b07ea22]
+reverse link LightFactory to SwitchLightFactory--><path codeLine="57" d="M231.426,83.9531 C231.426,83.9531 101.5,83.9531 101.5,83.9531 C101.5,83.9531 101.5,158.8491 101.5,202.4412 " fill="none" id="LightFactory-backto-SwitchLightFactory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="231.426,76.9531,251.426,83.9531,231.426,90.9531,231.426,76.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d5a2d89ed8bb1c2089b49cb6f27c7e92]
+reverse link LightFactory to DimmLightFactory--><path codeLine="58" d="M348.75,141.1681 C348.75,141.1681 348.75,202.2284 348.75,202.2284 " fill="none" id="LightFactory-backto-DimmLightFactory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="341.75,141.1681,348.75,121.1681,355.75,141.1681,341.75,141.1681" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0ac190bb2f3b426d016fe973dc09106f]
+link LightFactory to Light--><path codeLine="59" d="M441.679,83.9531 C441.679,83.9531 496.805,83.9531 496.805,83.9531 " fill="none" id="LightFactory-to-Light" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="501.805,83.9531,492.805,79.9531,496.805,83.9531,492.805,87.9531,501.805,83.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d279c403f4cddc7e28c36a1def3c8083]
+reverse link Light to SwitchLight--><path codeLine="60" d="M560.5,160.2841 C560.5,160.2841 560.5,208.8895 560.5,208.8895 " fill="none" id="Light-backto-SwitchLight" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="553.5,160.2841,560.5,140.2841,567.5,160.2831,553.5,160.2841" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fa31e174c868248651664775c33a84f6]
+reverse link Light to DimmLight--><path codeLine="61" d="M617.5,160.1221 C617.5,160.1221 617.5,196.9531 617.5,196.9531 C617.5,196.9531 643.391,196.9531 670.495,196.9531 " fill="none" id="Light-backto-DimmLight" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="610.5,160.1221,617.5,140.1221,624.5,160.1221,610.5,160.1221" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[05aa05d3dd516bdf30996d739cb87dab]
+@startuml
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 60 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+skinparam linetype ortho
+
+' title
+title 3-2-1 Smart Light Factory
+
+
+
+' Abstract Classes
+' ============================
+abstract class LightFactory{
+{abstract} createLight(name: string): Light
+someOperation()
+}
+
+interface Light{
++ name: string
+- state: boolean
+switchOn()
+switchOff()
+getState(): boolean
+}
+
+' Concrete Classes
+' ============================
+class SwitchLightFactory{
+createLight(name: string): Light
+}
+
+class DimmLightFactory{
+createLight(name: string): Light
+}
+
+class SwitchLight{
+}
+
+class DimmLight{
+- dimm_lvl: int
+setDimmLvl(lvl: int)
+getDimmLvl(): int
+}
+
+' Relations
+' ================================
+LightFactory <|-down- SwitchLightFactory
+LightFactory <|-down- DimmLightFactory
+LightFactory -right-> Light
+Light <|.down. SwitchLight
+Light <|.down. DimmLight
+@enduml
+
+@startuml
+
+
+skinparam nodesep 60 
+
+skinparam ranksep 50
+
+skinparam linetype ortho
+
+title 3-2-1 Smart Light Factory
+
+
+
+abstract class LightFactory{
+{abstract} createLight(name: string): Light
+someOperation()
+}
+
+interface Light{
++ name: string
+- state: boolean
+switchOn()
+switchOff()
+getState(): boolean
+}
+
+class SwitchLightFactory{
+createLight(name: string): Light
+}
+
+class DimmLightFactory{
+createLight(name: string): Light
+}
+
+class SwitchLight{
+}
+
+class DimmLight{
+- dimm_lvl: int
+setDimmLvl(lvl: int)
+getDimmLvl(): int
+}
+
+LightFactory <|-down- SwitchLightFactory
+LightFactory <|-down- DimmLightFactory
+LightFactory -right-> Light
+Light <|.down. SwitchLight
+Light <|.down. DimmLight
+@enduml
+
+PlantUML version 1.2021.2beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

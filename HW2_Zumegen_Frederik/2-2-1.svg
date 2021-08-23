@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="537px" preserveAspectRatio="none" style="width:630px;height:537px;" version="1.1" viewBox="0 0 630 537" width="630px" zoomAndPan="magnify"><defs><filter height="300%" id="f1inckautohmc4" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="191" x="213" y="16.708">2-2-1 Smart Lighting</text><!--MD5=[fc539fa3f3b7db9b31467e896d367b3b]
+class Device--><rect codeLine="23" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="60.8047" id="Device" style="stroke:#A80036;stroke-width:1.5;" width="99" x="239" y="176.9531"/><ellipse cx="266.15" cy="192.9531" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M268.2281,194.7656 L268.6188,195.75 L268.2281,195.75 C267.775,195.75 267.6656,195.7656 267.5094,195.875 C267.2594,196.0313 267.1031,196.3125 267.1031,196.6094 C267.1031,196.875 267.2438,197.125 267.4625,197.2813 C267.6031,197.4063 267.8063,197.4531 268.2281,197.4531 L270.5875,197.4531 C270.9469,197.4531 271.1656,197.4219 271.3063,197.3281 C271.5563,197.1875 271.7125,196.8906 271.7125,196.6094 C271.7125,196.3281 271.5719,196.0781 271.3531,195.9219 C271.1813,195.7813 271.025,195.75 270.5563,195.75 L267.1656,187.5469 L263.4938,187.5469 C263.0406,187.5469 262.9156,187.5625 262.7594,187.6563 C262.5094,187.8281 262.3531,188.1094 262.3531,188.3906 C262.3531,188.6719 262.4938,188.9219 262.7125,189.0938 C262.8844,189.2031 263.0563,189.2344 263.4938,189.2344 L264.5719,189.2344 L261.9313,195.75 C261.5094,195.75 261.3531,195.7656 261.1969,195.875 C260.9469,196.0313 260.7906,196.3125 260.7906,196.6094 C260.7906,197.1719 261.1656,197.4531 261.9156,197.4531 L264.1813,197.4531 C264.5406,197.4531 264.7594,197.4219 264.8844,197.3281 C265.15,197.1875 265.2906,196.8906 265.2906,196.6094 C265.2906,196.3281 265.1656,196.0781 264.9469,195.9063 C264.775,195.7813 264.6344,195.75 264.1813,195.75 L263.7906,195.75 L264.1813,194.7656 L268.2281,194.7656 Z M267.525,193.0625 L264.8531,193.0625 L266.1969,189.7969 L267.525,193.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="282.85" y="197.1074">Device</text><line style="stroke:#A80036;stroke-width:1.5;" x1="240" x2="337" y1="208.9531" y2="208.9531"/><ellipse cx="250" cy="219.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="259" y="223.1636">name: String</text><line style="stroke:#A80036;stroke-width:1.5;" x1="240" x2="337" y1="229.7578" y2="229.7578"/><!--MD5=[97d46ae094d28e0d28828e4b8046fed1]
+class Sensor--><rect codeLine="28" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="60.8047" id="Sensor" style="stroke:#A80036;stroke-width:1.5;" width="78" x="100.5" y="176.9531"/><ellipse cx="117.75" cy="192.9531" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M119.8281,194.7656 L120.2188,195.75 L119.8281,195.75 C119.375,195.75 119.2656,195.7656 119.1094,195.875 C118.8594,196.0313 118.7031,196.3125 118.7031,196.6094 C118.7031,196.875 118.8438,197.125 119.0625,197.2813 C119.2031,197.4063 119.4063,197.4531 119.8281,197.4531 L122.1875,197.4531 C122.5469,197.4531 122.7656,197.4219 122.9063,197.3281 C123.1563,197.1875 123.3125,196.8906 123.3125,196.6094 C123.3125,196.3281 123.1719,196.0781 122.9531,195.9219 C122.7813,195.7813 122.625,195.75 122.1563,195.75 L118.7656,187.5469 L115.0938,187.5469 C114.6406,187.5469 114.5156,187.5625 114.3594,187.6563 C114.1094,187.8281 113.9531,188.1094 113.9531,188.3906 C113.9531,188.6719 114.0938,188.9219 114.3125,189.0938 C114.4844,189.2031 114.6563,189.2344 115.0938,189.2344 L116.1719,189.2344 L113.5313,195.75 C113.1094,195.75 112.9531,195.7656 112.7969,195.875 C112.5469,196.0313 112.3906,196.3125 112.3906,196.6094 C112.3906,197.1719 112.7656,197.4531 113.5156,197.4531 L115.7813,197.4531 C116.1406,197.4531 116.3594,197.4219 116.4844,197.3281 C116.75,197.1875 116.8906,196.8906 116.8906,196.6094 C116.8906,196.3281 116.7656,196.0781 116.5469,195.9063 C116.375,195.7813 116.2344,195.75 115.7813,195.75 L115.3906,195.75 L115.7813,194.7656 L119.8281,194.7656 Z M119.125,193.0625 L116.4531,193.0625 L117.7969,189.7969 L119.125,193.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="41" x="132.25" y="197.1074">Sensor</text><line style="stroke:#A80036;stroke-width:1.5;" x1="101.5" x2="177.5" y1="208.9531" y2="208.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="101.5" x2="177.5" y1="216.9531" y2="216.9531"/><ellipse cx="111.5" cy="227.9531" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="52" x="120.5" y="231.1636">Int read()</text><!--MD5=[d40932010816485ec57b44b6eea2392a]
+class Observer--><rect codeLine="33" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="60.8047" id="Observer" style="stroke:#A80036;stroke-width:1.5;" width="119" x="368" y="46.9531"/><ellipse cx="397.85" cy="62.9531" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M398.8031,59.7344 L400.5219,59.7344 C400.9125,59.7344 401.1,59.7031 401.225,59.625 C401.4906,59.4688 401.6313,59.1875 401.6313,58.8906 C401.6313,58.625 401.5219,58.3594 401.2875,58.1875 C401.1156,58.0781 400.975,58.0469 400.5219,58.0469 L395.3813,58.0469 C394.9438,58.0469 394.8188,58.0625 394.6625,58.1563 C394.4125,58.3125 394.2563,58.6094 394.2563,58.8906 C394.2563,59.1719 394.3969,59.4219 394.6156,59.5938 C394.7719,59.7031 394.9594,59.7344 395.3813,59.7344 L397.1,59.7344 L397.1,66.25 L395.3813,66.25 C394.9438,66.25 394.8188,66.2656 394.6625,66.375 C394.4125,66.5313 394.2563,66.8125 394.2563,67.1094 C394.2563,67.3594 394.3969,67.625 394.6156,67.7813 C394.7719,67.9063 394.975,67.9531 395.3813,67.9531 L400.5219,67.9531 C401.2719,67.9531 401.6313,67.6719 401.6313,67.1094 C401.6313,66.8281 401.5219,66.5781 401.2875,66.4063 C401.1156,66.2813 400.975,66.25 400.5219,66.25 L398.8031,66.25 L398.8031,59.7344 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="415.15" y="67.1074">Observer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="369" x2="486" y1="78.9531" y2="78.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="369" x2="486" y1="86.9531" y2="86.9531"/><ellipse cx="379" cy="97.9531" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="388" y="101.1636">update(msg: Int)</text><!--MD5=[c0bd9f44073f1a51428d87d6a9cf071b]
+class Observable--><rect codeLine="38" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="99.2188" id="Observable" style="stroke:#A80036;stroke-width:1.5;" width="157" x="121" y="27.9531"/><ellipse cx="162.1" cy="43.9531" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M164.1781,45.7656 L164.5688,46.75 L164.1781,46.75 C163.725,46.75 163.6156,46.7656 163.4594,46.875 C163.2094,47.0313 163.0531,47.3125 163.0531,47.6094 C163.0531,47.875 163.1938,48.125 163.4125,48.2813 C163.5531,48.4063 163.7563,48.4531 164.1781,48.4531 L166.5375,48.4531 C166.8969,48.4531 167.1156,48.4219 167.2563,48.3281 C167.5063,48.1875 167.6625,47.8906 167.6625,47.6094 C167.6625,47.3281 167.5219,47.0781 167.3031,46.9219 C167.1313,46.7813 166.975,46.75 166.5063,46.75 L163.1156,38.5469 L159.4438,38.5469 C158.9906,38.5469 158.8656,38.5625 158.7094,38.6563 C158.4594,38.8281 158.3031,39.1094 158.3031,39.3906 C158.3031,39.6719 158.4438,39.9219 158.6625,40.0938 C158.8344,40.2031 159.0063,40.2344 159.4438,40.2344 L160.5219,40.2344 L157.8813,46.75 C157.4594,46.75 157.3031,46.7656 157.1469,46.875 C156.8969,47.0313 156.7406,47.3125 156.7406,47.6094 C156.7406,48.1719 157.1156,48.4531 157.8656,48.4531 L160.1313,48.4531 C160.4906,48.4531 160.7094,48.4219 160.8344,48.3281 C161.1,48.1875 161.2406,47.8906 161.2406,47.6094 C161.2406,47.3281 161.1156,47.0781 160.8969,46.9063 C160.725,46.7813 160.5844,46.75 160.1313,46.75 L159.7406,46.75 L160.1313,45.7656 L164.1781,45.7656 Z M163.475,44.0625 L160.8031,44.0625 L162.1469,40.7969 L163.475,44.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="67" x="181.9" y="48.1074">Observable</text><line style="stroke:#A80036;stroke-width:1.5;" x1="122" x2="277" y1="59.9531" y2="59.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="129" y="67.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="88" x="141" y="74.1636">obs: Observer[]</text><line style="stroke:#A80036;stroke-width:1.5;" x1="122" x2="277" y1="80.7578" y2="80.7578"/><ellipse cx="132" cy="91.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="127" x="141" y="94.9683">attach(light: Observer)</text><ellipse cx="132" cy="104.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="131" x="141" y="107.7729">detach(light: Observer)</text><polygon fill="#FFFF44" points="132,112.3672,136,116.3672,132,120.3672,128,116.3672" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="45" x="141" y="120.5776">trigger()</text><!--MD5=[7c1a0278dec21c72584b17e1785fd623]
+class Light--><rect codeLine="46" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="60.8047" id="Light" style="stroke:#A80036;stroke-width:1.5;" width="119" x="398" y="176.9531"/><ellipse cx="438.2" cy="192.9531" fill="#A9DCDF" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M440.2781,194.7656 L440.6688,195.75 L440.2781,195.75 C439.825,195.75 439.7156,195.7656 439.5594,195.875 C439.3094,196.0313 439.1531,196.3125 439.1531,196.6094 C439.1531,196.875 439.2938,197.125 439.5125,197.2813 C439.6531,197.4063 439.8563,197.4531 440.2781,197.4531 L442.6375,197.4531 C442.9969,197.4531 443.2156,197.4219 443.3563,197.3281 C443.6063,197.1875 443.7625,196.8906 443.7625,196.6094 C443.7625,196.3281 443.6219,196.0781 443.4031,195.9219 C443.2313,195.7813 443.075,195.75 442.6063,195.75 L439.2156,187.5469 L435.5438,187.5469 C435.0906,187.5469 434.9656,187.5625 434.8094,187.6563 C434.5594,187.8281 434.4031,188.1094 434.4031,188.3906 C434.4031,188.6719 434.5438,188.9219 434.7625,189.0938 C434.9344,189.2031 435.1063,189.2344 435.5438,189.2344 L436.6219,189.2344 L433.9813,195.75 C433.5594,195.75 433.4031,195.7656 433.2469,195.875 C432.9969,196.0313 432.8406,196.3125 432.8406,196.6094 C432.8406,197.1719 433.2156,197.4531 433.9656,197.4531 L436.2313,197.4531 C436.5906,197.4531 436.8094,197.4219 436.9344,197.3281 C437.2,197.1875 437.3406,196.8906 437.3406,196.6094 C437.3406,196.3281 437.2156,196.0781 436.9969,195.9063 C436.825,195.7813 436.6844,195.75 436.2313,195.75 L435.8406,195.75 L436.2313,194.7656 L440.2781,194.7656 Z M439.575,193.0625 L436.9031,193.0625 L438.2469,189.7969 L439.575,193.0625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="31" x="457.8" y="197.1074">Light</text><line style="stroke:#A80036;stroke-width:1.5;" x1="399" x2="516" y1="208.9531" y2="208.9531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="399" x2="516" y1="216.9531" y2="216.9531"/><ellipse cx="409" cy="227.9531" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="418" y="231.1636">update(msg: Int)</text><!--MD5=[de6ca5c9c43bd9c43b61b1cb3dc172cd]
+class HwSwitch--><rect codeLine="56" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="73.6094" id="HwSwitch" style="stroke:#A80036;stroke-width:1.5;" width="101" x="7" y="300.4531"/><ellipse cx="26.95" cy="316.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M29.2938,312.125 C28.3563,311.6875 27.7625,311.5469 26.8875,311.5469 C24.2625,311.5469 22.2625,313.625 22.2625,316.3438 L22.2625,317.4688 C22.2625,320.0469 24.3719,321.9375 27.2625,321.9375 C28.4813,321.9375 29.6375,321.6406 30.3875,321.0938 C30.9656,320.6875 31.2938,320.2344 31.2938,319.8438 C31.2938,319.3906 30.9031,319 30.4344,319 C30.2156,319 30.0125,319.0781 29.825,319.2656 C29.3719,319.75 29.3719,319.75 29.1844,319.8438 C28.7625,320.1094 28.075,320.2344 27.3094,320.2344 C25.2625,320.2344 23.9656,319.1406 23.9656,317.4375 L23.9656,316.3438 C23.9656,314.5625 25.2156,313.25 26.95,313.25 C27.5281,313.25 28.1375,313.4063 28.6063,313.6563 C29.0906,313.9375 29.2625,314.1563 29.3563,314.5625 C29.4188,314.9688 29.45,315.0938 29.5906,315.2188 C29.7313,315.3594 29.9656,315.4688 30.1844,315.4688 C30.45,315.4688 30.7156,315.3281 30.8875,315.1094 C30.9969,314.9531 31.0281,314.7656 31.0281,314.3438 L31.0281,312.9219 C31.0281,312.4844 31.0125,312.3594 30.9188,312.2031 C30.7625,311.9375 30.4813,311.7969 30.1844,311.7969 C29.8875,311.7969 29.6844,311.8906 29.4656,312.2031 L29.2938,312.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="42.05" y="320.6074">HwSwitch</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="107" y1="332.4531" y2="332.4531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="340.4531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="27" y="346.6636">button1: Bool</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="353.2578"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="75" x="27" y="359.4683">button2: Bool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="107" y1="366.0625" y2="366.0625"/><!--MD5=[7f4577e6d2b99d30cf4fa5555f26ca50]
+class SwButton--><rect codeLine="61" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="60.8047" id="SwButton" style="stroke:#A80036;stroke-width:1.5;" width="94" x="168.5" y="306.9531"/><ellipse cx="186.2" cy="322.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M188.5438,318.625 C187.6063,318.1875 187.0125,318.0469 186.1375,318.0469 C183.5125,318.0469 181.5125,320.125 181.5125,322.8438 L181.5125,323.9688 C181.5125,326.5469 183.6219,328.4375 186.5125,328.4375 C187.7313,328.4375 188.8875,328.1406 189.6375,327.5938 C190.2156,327.1875 190.5438,326.7344 190.5438,326.3438 C190.5438,325.8906 190.1531,325.5 189.6844,325.5 C189.4656,325.5 189.2625,325.5781 189.075,325.7656 C188.6219,326.25 188.6219,326.25 188.4344,326.3438 C188.0125,326.6094 187.325,326.7344 186.5594,326.7344 C184.5125,326.7344 183.2156,325.6406 183.2156,323.9375 L183.2156,322.8438 C183.2156,321.0625 184.4656,319.75 186.2,319.75 C186.7781,319.75 187.3875,319.9063 187.8563,320.1563 C188.3406,320.4375 188.5125,320.6563 188.6063,321.0625 C188.6688,321.4688 188.7,321.5938 188.8406,321.7188 C188.9813,321.8594 189.2156,321.9688 189.4344,321.9688 C189.7,321.9688 189.9656,321.8281 190.1375,321.6094 C190.2469,321.4531 190.2781,321.2656 190.2781,320.8438 L190.2781,319.4219 C190.2781,318.9844 190.2625,318.8594 190.1688,318.7031 C190.0125,318.4375 189.7313,318.2969 189.4344,318.2969 C189.1375,318.2969 188.9344,318.3906 188.7156,318.7031 L188.5438,318.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="56" x="200.8" y="327.1074">SwButton</text><line style="stroke:#A80036;stroke-width:1.5;" x1="169.5" x2="261.5" y1="338.9531" y2="338.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="176.5" y="346.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="68" x="188.5" y="353.1636">button: Bool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="169.5" x2="261.5" y1="359.7578" y2="359.7578"/><!--MD5=[999e49f72af8639b360af99f8c1ff713]
+class SwitchLight--><rect codeLine="69" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="99.2188" id="SwitchLight" style="stroke:#A80036;stroke-width:1.5;" width="119" x="398" y="287.9531"/><ellipse cx="422" cy="303.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M424.3438,299.625 C423.4063,299.1875 422.8125,299.0469 421.9375,299.0469 C419.3125,299.0469 417.3125,301.125 417.3125,303.8438 L417.3125,304.9688 C417.3125,307.5469 419.4219,309.4375 422.3125,309.4375 C423.5313,309.4375 424.6875,309.1406 425.4375,308.5938 C426.0156,308.1875 426.3438,307.7344 426.3438,307.3438 C426.3438,306.8906 425.9531,306.5 425.4844,306.5 C425.2656,306.5 425.0625,306.5781 424.875,306.7656 C424.4219,307.25 424.4219,307.25 424.2344,307.3438 C423.8125,307.6094 423.125,307.7344 422.3594,307.7344 C420.3125,307.7344 419.0156,306.6406 419.0156,304.9375 L419.0156,303.8438 C419.0156,302.0625 420.2656,300.75 422,300.75 C422.5781,300.75 423.1875,300.9063 423.6563,301.1563 C424.1406,301.4375 424.3125,301.6563 424.4063,302.0625 C424.4688,302.4688 424.5,302.5938 424.6406,302.7188 C424.7813,302.8594 425.0156,302.9688 425.2344,302.9688 C425.5,302.9688 425.7656,302.8281 425.9375,302.6094 C426.0469,302.4531 426.0781,302.2656 426.0781,301.8438 L426.0781,300.4219 C426.0781,299.9844 426.0625,299.8594 425.9688,299.7031 C425.8125,299.4375 425.5313,299.2969 425.2344,299.2969 C424.9375,299.2969 424.7344,299.3906 424.5156,299.7031 L424.3438,299.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="438" y="308.1074">SwitchLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="399" x2="516" y1="319.9531" y2="319.9531"/><polygon fill="none" points="409,325.9531,413,329.9531,409,333.9531,405,329.9531" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="418" y="334.1636">state: Bool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="399" x2="516" y1="340.7578" y2="340.7578"/><ellipse cx="409" cy="351.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="418" y="354.9683">update(msg: Int)</text><ellipse cx="409" cy="364.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="59" x="418" y="367.7729">switchOn()</text><ellipse cx="409" cy="377.3672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="418" y="380.5776">switchOff()</text><!--MD5=[a54edd4c870d7b3a603adac8183ae883]
+class DimmLight--><rect codeLine="76" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="86.4141" id="DimmLight" style="stroke:#A80036;stroke-width:1.5;" width="157" x="280" y="436.9531"/><ellipse cx="323.35" cy="452.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M325.6938,448.625 C324.7563,448.1875 324.1625,448.0469 323.2875,448.0469 C320.6625,448.0469 318.6625,450.125 318.6625,452.8438 L318.6625,453.9688 C318.6625,456.5469 320.7719,458.4375 323.6625,458.4375 C324.8813,458.4375 326.0375,458.1406 326.7875,457.5938 C327.3656,457.1875 327.6938,456.7344 327.6938,456.3438 C327.6938,455.8906 327.3031,455.5 326.8344,455.5 C326.6156,455.5 326.4125,455.5781 326.225,455.7656 C325.7719,456.25 325.7719,456.25 325.5844,456.3438 C325.1625,456.6094 324.475,456.7344 323.7094,456.7344 C321.6625,456.7344 320.3656,455.6406 320.3656,453.9375 L320.3656,452.8438 C320.3656,451.0625 321.6156,449.75 323.35,449.75 C323.9281,449.75 324.5375,449.9063 325.0063,450.1563 C325.4906,450.4375 325.6625,450.6563 325.7563,451.0625 C325.8188,451.4688 325.85,451.5938 325.9906,451.7188 C326.1313,451.8594 326.3656,451.9688 326.5844,451.9688 C326.85,451.9688 327.1156,451.8281 327.2875,451.6094 C327.3969,451.4531 327.4281,451.2656 327.4281,450.8438 L327.4281,449.4219 C327.4281,448.9844 327.4125,448.8594 327.3188,448.7031 C327.1625,448.4375 326.8813,448.2969 326.5844,448.2969 C326.2875,448.2969 326.0844,448.3906 325.8656,448.7031 L325.6938,448.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="343.65" y="457.1074">DimmLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="281" x2="436" y1="468.9531" y2="468.9531"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="288" y="476.9531"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="131" x="300" y="483.1636">brightness: Percentage</text><line style="stroke:#A80036;stroke-width:1.5;" x1="281" x2="436" y1="489.7578" y2="489.7578"/><ellipse cx="291" cy="500.7578" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="300" y="503.9683">update(msg: Int)</text><ellipse cx="291" cy="513.5625" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="120" x="300" y="516.7729">setBrightness(lvl: Int)</text><!--MD5=[84395e0796ddd32b793bd601aea0a7d5]
+class BadLight--><rect codeLine="82" fill="#FEFECE" filter="url(#f1inckautohmc4)" height="60.8047" id="BadLight" style="stroke:#A80036;stroke-width:1.5;" width="119" x="497" y="449.4531"/><ellipse cx="528.2" cy="465.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M530.5438,461.125 C529.6063,460.6875 529.0125,460.5469 528.1375,460.5469 C525.5125,460.5469 523.5125,462.625 523.5125,465.3438 L523.5125,466.4688 C523.5125,469.0469 525.6219,470.9375 528.5125,470.9375 C529.7313,470.9375 530.8875,470.6406 531.6375,470.0938 C532.2156,469.6875 532.5438,469.2344 532.5438,468.8438 C532.5438,468.3906 532.1531,468 531.6844,468 C531.4656,468 531.2625,468.0781 531.075,468.2656 C530.6219,468.75 530.6219,468.75 530.4344,468.8438 C530.0125,469.1094 529.325,469.2344 528.5594,469.2344 C526.5125,469.2344 525.2156,468.1406 525.2156,466.4375 L525.2156,465.3438 C525.2156,463.5625 526.4656,462.25 528.2,462.25 C528.7781,462.25 529.3875,462.4063 529.8563,462.6563 C530.3406,462.9375 530.5125,463.1563 530.6063,463.5625 C530.6688,463.9688 530.7,464.0938 530.8406,464.2188 C530.9813,464.3594 531.2156,464.4688 531.4344,464.4688 C531.7,464.4688 531.9656,464.3281 532.1375,464.1094 C532.2469,463.9531 532.2781,463.7656 532.2781,463.3438 L532.2781,461.9219 C532.2781,461.4844 532.2625,461.3594 532.1688,461.2031 C532.0125,460.9375 531.7313,460.7969 531.4344,460.7969 C531.1375,460.7969 530.9344,460.8906 530.7156,461.2031 L530.5438,461.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="51" x="545.8" y="469.6074">BadLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="498" x2="615" y1="481.4531" y2="481.4531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="498" x2="615" y1="489.4531" y2="489.4531"/><ellipse cx="508" cy="500.4531" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="93" x="517" y="503.6636">update(msg: Int)</text><!--MD5=[f47ea240a50a6bf1ded9b03193214bdb]
+reverse link Observer to Light--><path codeLine="96" d="M442.5,128.2611 C442.5,128.2611 442.5,176.8661 442.5,176.8661 " fill="none" id="Observer-backto-Light" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="435.5,128.2611,442.5,108.2611,449.5,128.2611,435.5,128.2611" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[af1a0fd6c1c651f8639811b2df771eb0]
+reverse link Observable to Sensor--><path codeLine="98" d="M149.75,146.9711 C149.75,146.9711 149.75,176.8881 149.75,176.8881 " fill="none" id="Observable-backto-Sensor" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="142.75,146.9711,149.75,126.9711,156.75,146.9711,142.75,146.9711" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1992cff6a78035d2f03126e70525e0bb]
+reverse link Observable to Observer--><path codeLine="99" d="M291.284,77.9531 C291.284,77.9531 367.789,77.9531 367.789,77.9531 " fill="none" id="Observable-backto-Observer" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="278.284,77.9531,284.284,81.9531,290.284,77.9531,284.284,73.9531,278.284,77.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[24fe2207ce01d4afc11b25340d0460a8]
+link Sensor to Device--><path codeLine="109" d="M178.648,207.9531 C178.648,207.9531 218.93,207.9531 218.93,207.9531 " fill="none" id="Sensor-to-Device" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="218.93,200.9531,238.93,207.9531,218.93,214.9531,218.93,200.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[dcd22d50342af11664ed34e33e614224]
+reverse link Device to Light--><path codeLine="110" d="M358.292,207.9531 C358.292,207.9531 397.917,207.9531 397.917,207.9531 " fill="none" id="Device-backto-Light" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="358.292,214.9531,338.292,207.9531,358.291,200.9531,358.292,214.9531" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e8da5625b9bfc9ecc35a93d8086489f3]
+reverse link Sensor to HwSwitch--><path codeLine="112" d="M104.25,258.2611 C104.25,258.2611 104.25,300.3851 104.25,300.3851 " fill="none" id="Sensor-backto-HwSwitch" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="97.2501,258.2611,104.25,238.2611,111.25,258.2611,97.2501,258.2611" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0c2debd8390f0eaf1d7a438f5c41b729]
+reverse link Sensor to SwButton--><path codeLine="113" d="M173.5,258.2611 C173.5,258.2611 173.5,306.8661 173.5,306.8661 " fill="none" id="Sensor-backto-SwButton" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="166.5,258.2611,173.5,238.2611,180.5,258.2611,166.5,258.2611" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d279c403f4cddc7e28c36a1def3c8083]
+reverse link Light to SwitchLight--><path codeLine="117" d="M457.5,258.2611 C457.5,258.2611 457.5,287.8111 457.5,287.8111 " fill="none" id="Light-backto-SwitchLight" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="450.5,258.2611,457.5,238.2611,464.5,258.2611,450.5,258.2611" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[76cf96c8adfc92d288b4a008dbb2dd4c]
+reverse link SwitchLight to DimmLight--><path codeLine="118" d="M417.5,407.2931 C417.5,407.2931 417.5,436.5453 417.5,436.5453 " fill="none" id="SwitchLight-backto-DimmLight" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="410.5,407.2931,417.5,387.2931,424.5,407.2931,410.5,407.2931" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ec7828ca03f45c6621e01f72120e50d2]
+reverse link SwitchLight to BadLight--><path codeLine="119" d="M507,407.2931 C507,407.2931 507,449.0327 507,449.0327 " fill="none" id="SwitchLight-backto-BadLight" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="500,407.2931,507,387.2931,514,407.2931,500,407.2931" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d4ebccac7f60fb791cf9962d907fe866]
+@startuml
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 60 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+skinparam linetype ortho
+
+' title
+title 2-2-1 Smart Lighting
+
+
+
+' Abstract Classes
+' ============================
+abstract class Device {
+  +name: String
+}
+
+
+abstract Sensor{
+  +Int read()
+}
+
+
+interface Observer{
+  +update(msg: Int)
+}
+
+
+abstract Observable{
+  -obs: Observer[]
+  +attach(light: Observer)
+  +detach(light: Observer)
+  #trigger()
+}
+
+
+abstract class Light {
+  +update(msg: Int)
+}
+
+
+
+
+
+
+
+class HwSwitch {
+  -button1: Bool
+  -button2: Bool
+}
+
+class SwButton {
+  -button: Bool
+}
+
+
+
+
+
+class SwitchLight {
+  #state: Bool
+  +update(msg: Int)
+  +switchOn()
+  +switchOff()
+}
+
+class DimmLight {
+  -brightness: Percentage
+  +update(msg: Int)
+  +setBrightness(lvl: Int)
+}
+
+class BadLight{
+  +update(msg: Int)
+}
+
+
+
+
+
+
+' Relations
+' ================================
+
+
+
+Observer <|.down. Light
+
+Observable <|.down. Sensor
+Observable o- - -right- - - Observer
+
+
+
+
+
+
+
+
+
+Device <|-left- Sensor
+Device <|-right- Light
+
+Sensor <|.down. HwSwitch
+Sensor <|.down. SwButton
+
+
+
+Light <|.down. SwitchLight
+SwitchLight <|-down- DimmLight
+SwitchLight <|-down- BadLight
+@enduml
+
+@startuml
+
+
+skinparam nodesep 60 
+
+skinparam ranksep 50
+
+skinparam linetype ortho
+
+title 2-2-1 Smart Lighting
+
+
+
+abstract class Device {
+  +name: String
+}
+
+
+abstract Sensor{
+  +Int read()
+}
+
+
+interface Observer{
+  +update(msg: Int)
+}
+
+
+abstract Observable{
+  -obs: Observer[]
+  +attach(light: Observer)
+  +detach(light: Observer)
+  #trigger()
+}
+
+
+abstract class Light {
+  +update(msg: Int)
+}
+
+
+
+
+
+
+
+class HwSwitch {
+  -button1: Bool
+  -button2: Bool
+}
+
+class SwButton {
+  -button: Bool
+}
+
+
+
+
+
+class SwitchLight {
+  #state: Bool
+  +update(msg: Int)
+  +switchOn()
+  +switchOff()
+}
+
+class DimmLight {
+  -brightness: Percentage
+  +update(msg: Int)
+  +setBrightness(lvl: Int)
+}
+
+class BadLight{
+  +update(msg: Int)
+}
+
+
+
+
+
+
+
+
+
+Observer <|.down. Light
+
+Observable <|.down. Sensor
+Observable o- - -right- - - Observer
+
+
+
+
+
+
+
+
+
+Device <|-left- Sensor
+Device <|-right- Light
+
+Sensor <|.down. HwSwitch
+Sensor <|.down. SwButton
+
+
+
+Light <|.down. SwitchLight
+SwitchLight <|-down- DimmLight
+SwitchLight <|-down- BadLight
+@enduml
+
+PlantUML version 1.2020.24(Fri Dec 18 17:00:36 UTC 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

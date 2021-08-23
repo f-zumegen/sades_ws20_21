@@ -1,0 +1,121 @@
+@startuml
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 60 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+skinparam linetype ortho
+
+' title
+title 2-2-1 Smart Lighting
+
+
+
+' Abstract Classes
+' ============================
+abstract class Device {
+  +name: String
+}
+
+
+abstract Sensor{
+  +Int read()
+}
+
+
+interface Observer{
+  +update(msg: Int)
+}
+
+
+abstract Observable{
+  -obs: Observer[]
+  +attach(light: Observer)
+  +detach(light: Observer)
+  #trigger()
+}
+
+
+abstract class Light {
+  +update(msg: Int)
+}
+
+
+
+
+
+
+
+class HwSwitch {
+  -button1: Bool
+  -button2: Bool
+}
+
+class SwButton {
+  -button: Bool
+}
+
+
+
+
+
+class SwitchLight {
+  #state: Bool
+  +update(msg: Int)
+  +switchOn()
+  +switchOff()
+}
+
+class DimmLight {
+  -brightness: Percentage
+  +update(msg: Int)
+  +setBrightness(lvl: Int)
+}
+
+class BadLight{
+  +update(msg: Int)
+}
+
+
+
+
+
+
+' Relations
+' ================================
+
+
+
+Observer <|.down. Light
+
+Observable <|.down. Sensor
+Observable o---right--- Observer
+
+
+
+
+
+
+
+
+
+Device <|-left- Sensor
+Device <|-right- Light
+
+Sensor <|.down. HwSwitch
+Sensor <|.down. SwButton
+
+
+
+Light <|.down. SwitchLight
+SwitchLight <|-down- DimmLight
+SwitchLight <|-down- BadLight
+@enduml

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="375px" preserveAspectRatio="none" style="width:429px;height:375px;" version="1.1" viewBox="0 0 429 375" width="429px" zoomAndPan="magnify"><defs><filter height="300%" id="f1a8tqvqhfkoed" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="68" x="174" y="16.708">Groups</text><!--MD5=[7c1a0278dec21c72584b17e1785fd623]
+class Light--><rect codeLine="23" fill="#FEFECE" filter="url(#f1a8tqvqhfkoed)" height="60.8047" id="Light" style="stroke:#A80036;stroke-width:1.5;" width="108" x="102.5" y="27.9531"/><ellipse cx="139.1" cy="43.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M141.4438,39.625 C140.5063,39.1875 139.9125,39.0469 139.0375,39.0469 C136.4125,39.0469 134.4125,41.125 134.4125,43.8438 L134.4125,44.9688 C134.4125,47.5469 136.5219,49.4375 139.4125,49.4375 C140.6313,49.4375 141.7875,49.1406 142.5375,48.5938 C143.1156,48.1875 143.4438,47.7344 143.4438,47.3438 C143.4438,46.8906 143.0531,46.5 142.5844,46.5 C142.3656,46.5 142.1625,46.5781 141.975,46.7656 C141.5219,47.25 141.5219,47.25 141.3344,47.3438 C140.9125,47.6094 140.225,47.7344 139.4594,47.7344 C137.4125,47.7344 136.1156,46.6406 136.1156,44.9375 L136.1156,43.8438 C136.1156,42.0625 137.3656,40.75 139.1,40.75 C139.6781,40.75 140.2875,40.9063 140.7563,41.1563 C141.2406,41.4375 141.4125,41.6563 141.5063,42.0625 C141.5688,42.4688 141.6,42.5938 141.7406,42.7188 C141.8813,42.8594 142.1156,42.9688 142.3344,42.9688 C142.6,42.9688 142.8656,42.8281 143.0375,42.6094 C143.1469,42.4531 143.1781,42.2656 143.1781,41.8438 L143.1781,40.4219 C143.1781,39.9844 143.1625,39.8594 143.0688,39.7031 C142.9125,39.4375 142.6313,39.2969 142.3344,39.2969 C142.0375,39.2969 141.8344,39.3906 141.6156,39.7031 L141.4438,39.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="28" x="157.9" y="48.1074">Light</text><line style="stroke:#A80036;stroke-width:1.5;" x1="103.5" x2="209.5" y1="59.9531" y2="59.9531"/><ellipse cx="113.5" cy="70.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="82" x="122.5" y="74.1636">state: boolean</text><line style="stroke:#A80036;stroke-width:1.5;" x1="103.5" x2="209.5" y1="80.7578" y2="80.7578"/><!--MD5=[999e49f72af8639b360af99f8c1ff713]
+class SwitchLight--><rect codeLine="27" fill="#FEFECE" filter="url(#f1a8tqvqhfkoed)" height="48" id="SwitchLight" style="stroke:#A80036;stroke-width:1.5;" width="99" x="276" y="145.4531"/><ellipse cx="291" cy="161.4531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M293.3438,157.125 C292.4063,156.6875 291.8125,156.5469 290.9375,156.5469 C288.3125,156.5469 286.3125,158.625 286.3125,161.3438 L286.3125,162.4688 C286.3125,165.0469 288.4219,166.9375 291.3125,166.9375 C292.5313,166.9375 293.6875,166.6406 294.4375,166.0938 C295.0156,165.6875 295.3438,165.2344 295.3438,164.8438 C295.3438,164.3906 294.9531,164 294.4844,164 C294.2656,164 294.0625,164.0781 293.875,164.2656 C293.4219,164.75 293.4219,164.75 293.2344,164.8438 C292.8125,165.1094 292.125,165.2344 291.3594,165.2344 C289.3125,165.2344 288.0156,164.1406 288.0156,162.4375 L288.0156,161.3438 C288.0156,159.5625 289.2656,158.25 291,158.25 C291.5781,158.25 292.1875,158.4063 292.6563,158.6563 C293.1406,158.9375 293.3125,159.1563 293.4063,159.5625 C293.4688,159.9688 293.5,160.0938 293.6406,160.2188 C293.7813,160.3594 294.0156,160.4688 294.2344,160.4688 C294.5,160.4688 294.7656,160.3281 294.9375,160.1094 C295.0469,159.9531 295.0781,159.7656 295.0781,159.3438 L295.0781,157.9219 C295.0781,157.4844 295.0625,157.3594 294.9688,157.2031 C294.8125,156.9375 294.5313,156.7969 294.2344,156.7969 C293.9375,156.7969 293.7344,156.8906 293.5156,157.2031 L293.3438,157.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="67" x="305" y="165.6074">SwitchLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="277" x2="374" y1="177.4531" y2="177.4531"/><line style="stroke:#A80036;stroke-width:1.5;" x1="277" x2="374" y1="185.4531" y2="185.4531"/><!--MD5=[a54edd4c870d7b3a603adac8183ae883]
+class DimmLight--><rect codeLine="30" fill="#FEFECE" filter="url(#f1a8tqvqhfkoed)" height="60.8047" id="DimmLight" style="stroke:#A80036;stroke-width:1.5;" width="138" x="87.5" y="138.9531"/><ellipse cx="122.3" cy="154.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M124.6438,150.625 C123.7063,150.1875 123.1125,150.0469 122.2375,150.0469 C119.6125,150.0469 117.6125,152.125 117.6125,154.8438 L117.6125,155.9688 C117.6125,158.5469 119.7219,160.4375 122.6125,160.4375 C123.8313,160.4375 124.9875,160.1406 125.7375,159.5938 C126.3156,159.1875 126.6438,158.7344 126.6438,158.3438 C126.6438,157.8906 126.2531,157.5 125.7844,157.5 C125.5656,157.5 125.3625,157.5781 125.175,157.7656 C124.7219,158.25 124.7219,158.25 124.5344,158.3438 C124.1125,158.6094 123.425,158.7344 122.6594,158.7344 C120.6125,158.7344 119.3156,157.6406 119.3156,155.9375 L119.3156,154.8438 C119.3156,153.0625 120.5656,151.75 122.3,151.75 C122.8781,151.75 123.4875,151.9063 123.9563,152.1563 C124.4406,152.4375 124.6125,152.6563 124.7063,153.0625 C124.7688,153.4688 124.8,153.5938 124.9406,153.7188 C125.0813,153.8594 125.3156,153.9688 125.5344,153.9688 C125.8,153.9688 126.0656,153.8281 126.2375,153.6094 C126.3469,153.4531 126.3781,153.2656 126.3781,152.8438 L126.3781,151.4219 C126.3781,150.9844 126.3625,150.8594 126.2688,150.7031 C126.1125,150.4375 125.8313,150.2969 125.5344,150.2969 C125.2375,150.2969 125.0344,150.3906 124.8156,150.7031 L124.6438,150.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="62" x="140.7" y="159.1074">DimmLight</text><line style="stroke:#A80036;stroke-width:1.5;" x1="88.5" x2="224.5" y1="170.9531" y2="170.9531"/><ellipse cx="98.5" cy="181.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="112" x="107.5" y="185.1636">brightnessLevel: int</text><line style="stroke:#A80036;stroke-width:1.5;" x1="88.5" x2="224.5" y1="191.7578" y2="191.7578"/><!--MD5=[41314a0efc36828092cff9ebad2fcafd]
+class Group--><rect codeLine="34" fill="#FEFECE" filter="url(#f1a8tqvqhfkoed)" height="112.0234" id="Group" style="stroke:#A80036;stroke-width:1.5;" width="179" x="7" y="249.9531"/><ellipse cx="73.75" cy="265.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M76.0938,261.625 C75.1563,261.1875 74.5625,261.0469 73.6875,261.0469 C71.0625,261.0469 69.0625,263.125 69.0625,265.8438 L69.0625,266.9688 C69.0625,269.5469 71.1719,271.4375 74.0625,271.4375 C75.2813,271.4375 76.4375,271.1406 77.1875,270.5938 C77.7656,270.1875 78.0938,269.7344 78.0938,269.3438 C78.0938,268.8906 77.7031,268.5 77.2344,268.5 C77.0156,268.5 76.8125,268.5781 76.625,268.7656 C76.1719,269.25 76.1719,269.25 75.9844,269.3438 C75.5625,269.6094 74.875,269.7344 74.1094,269.7344 C72.0625,269.7344 70.7656,268.6406 70.7656,266.9375 L70.7656,265.8438 C70.7656,264.0625 72.0156,262.75 73.75,262.75 C74.3281,262.75 74.9375,262.9063 75.4063,263.1563 C75.8906,263.4375 76.0625,263.6563 76.1563,264.0625 C76.2188,264.4688 76.25,264.5938 76.3906,264.7188 C76.5313,264.8594 76.7656,264.9688 76.9844,264.9688 C77.25,264.9688 77.5156,264.8281 77.6875,264.6094 C77.7969,264.4531 77.8281,264.2656 77.8281,263.8438 L77.8281,262.4219 C77.8281,261.9844 77.8125,261.8594 77.7188,261.7031 C77.5625,261.4375 77.2813,261.2969 76.9844,261.2969 C76.6875,261.2969 76.4844,261.3906 76.2656,261.7031 L76.0938,261.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="94.25" y="270.1074">Group</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="185" y1="281.9531" y2="281.9531"/><ellipse cx="18" cy="292.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="27" y="296.1636">name: string</text><ellipse cx="18" cy="305.7578" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="153" x="27" y="308.9683">includedLightsIDs: int array</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="185" y1="315.5625" y2="315.5625"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="323.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="99" x="27" y="329.7729">configure_group()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="336.3672"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="27" y="342.5776">set_state()</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="349.1719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="126" x="27" y="355.3823">set_brightness_level()</text><!--MD5=[e4faacc5b8aef66b11ab0c816bbbc7f8]
+class Scene--><rect codeLine="42" fill="#FEFECE" filter="url(#f1a8tqvqhfkoed)" height="86.4141" id="Scene" style="stroke:#A80036;stroke-width:1.5;" width="179" x="236" y="262.9531"/><ellipse cx="302.25" cy="278.9531" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M304.5938,274.625 C303.6563,274.1875 303.0625,274.0469 302.1875,274.0469 C299.5625,274.0469 297.5625,276.125 297.5625,278.8438 L297.5625,279.9688 C297.5625,282.5469 299.6719,284.4375 302.5625,284.4375 C303.7813,284.4375 304.9375,284.1406 305.6875,283.5938 C306.2656,283.1875 306.5938,282.7344 306.5938,282.3438 C306.5938,281.8906 306.2031,281.5 305.7344,281.5 C305.5156,281.5 305.3125,281.5781 305.125,281.7656 C304.6719,282.25 304.6719,282.25 304.4844,282.3438 C304.0625,282.6094 303.375,282.7344 302.6094,282.7344 C300.5625,282.7344 299.2656,281.6406 299.2656,279.9375 L299.2656,278.8438 C299.2656,277.0625 300.5156,275.75 302.25,275.75 C302.8281,275.75 303.4375,275.9063 303.9063,276.1563 C304.3906,276.4375 304.5625,276.6563 304.6563,277.0625 C304.7188,277.4688 304.75,277.5938 304.8906,277.7188 C305.0313,277.8594 305.2656,277.9688 305.4844,277.9688 C305.75,277.9688 306.0156,277.8281 306.1875,277.6094 C306.2969,277.4531 306.3281,277.2656 306.3281,276.8438 L306.3281,275.4219 C306.3281,274.9844 306.3125,274.8594 306.2188,274.7031 C306.0625,274.4375 305.7813,274.2969 305.4844,274.2969 C305.1875,274.2969 304.9844,274.3906 304.7656,274.7031 L304.5938,274.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="322.75" y="283.1074">Scene</text><line style="stroke:#A80036;stroke-width:1.5;" x1="237" x2="414" y1="294.9531" y2="294.9531"/><ellipse cx="247" cy="305.9531" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="71" x="256" y="309.1636">name: string</text><ellipse cx="247" cy="318.7578" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="153" x="256" y="321.9683">includedLightsIDs: int array</text><line style="stroke:#A80036;stroke-width:1.5;" x1="237" x2="414" y1="328.5625" y2="328.5625"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="244" y="336.5625"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="102" x="256" y="342.7729">configure_scene()</text><!--MD5=[d279c403f4cddc7e28c36a1def3c8083]
+reverse link Light to SwitchLight--><path codeLine="51" d="M219.784,100.2691 C243.459,115.5391 269.51,132.3411 289.827,145.4451 " fill="none" id="Light-backto-SwitchLight" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="215.693,105.9611,202.68,89.2381,223.282,94.1951,215.693,105.9611" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fa31e174c868248651664775c33a84f6]
+reverse link Light to DimmLight--><path codeLine="52" d="M156.5,109.5831 C156.5,119.5411 156.5,129.6961 156.5,138.7041 " fill="none" id="Light-backto-DimmLight" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="149.5,109.2381,156.5,89.2381,163.5,109.2381,149.5,109.2381" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f9e3b73001b6283620f360f8875bb4a5]
+reverse link Light to Group--><path codeLine="53" d="M90.4794,102.1591 C79.1364,112.7291 68.9421,125.0681 62.5,138.9531 C46.2814,173.9111 55.5646,216.5601 68.4971,249.8741 " fill="none" id="Light-backto-Group" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="none" points="86.006,96.7751,105.8337,89.3011,94.9946,107.5091,86.006,96.7751" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d1cdc2dbc433bee5494a7102924006a0]
+link SwitchLight to Group--><path codeLine="54" d="M286.133,193.5741 C261.647,207.9561 228.951,227.1601 197.612,245.5661 " fill="none" id="SwitchLight-to-Group" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="186.146,252.3011,193.3454,252.711,196.4928,246.2231,189.2934,245.8131,186.146,252.3011" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5194a56988e433ef527e753955aa7df2]
+link DimmLight to Group--><path codeLine="55" d="M143.333,199.9701 C138.341,211.1591 132.43,224.4101 126.518,237.6621 " fill="none" id="DimmLight-to-Group" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="121.115,249.7741,127.2128,245.9248,126.0048,238.8156,119.9071,242.6649,121.115,249.7741" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d54354760f2ccdf95d38596c8ba9808b]
+link SwitchLight to Scene--><path codeLine="56" d="M325.5,193.5741 C325.5,209.0141 325.5,230.0091 325.5,249.6111 " fill="none" id="SwitchLight-to-Scene" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="325.5,262.8727,329.5,256.8727,325.5,250.8727,321.5,256.8727,325.5,262.8727" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[877fb5237b1fb1f47e315561827514be]
+link DimmLight to Scene--><path codeLine="57" d="M193.588,199.9701 C213.641,215.9301 238.963,236.0821 262.046,254.4531 " fill="none" id="DimmLight-to-Scene" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="272.468,262.7468,270.2645,255.8806,263.0789,255.2738,265.2825,262.14,272.468,262.7468" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b7a44d0c0b86f4903b6a5c528a41fce9]
+@startuml
+' Settings
+' ============================
+
+' use +,#,- instead of icons
+'skinparam classAttributeIconSize 0
+
+' horizontal distance in px
+skinparam nodesep 50 
+
+' vertical distance in px
+skinparam ranksep 50
+
+' use only straight lines (ortho/polyline)
+'skinparam linetype ortho
+
+' title
+title Groups
+
+
+
+' Classes
+' ============================
+class Light{
++ state: boolean
+}
+
+class SwitchLight{
+}
+
+class DimmLight{
++ brightnessLevel: int
+}
+
+class Group{
++ name: string
++ includedLightsIDs: int array
+-configure_group()
+-set_state()
+-set_brightness_level()
+}
+
+class Scene{
++ name: string
++ includedLightsIDs: int array
+- configure_scene()
+}
+
+
+' Relations
+' ============================
+Light <|-down- SwitchLight
+Light <|-down- DimmLight
+Light <|-down- Group
+SwitchLight -down-o Group
+DimmLight -down-o Group
+SwitchLight -down-o Scene
+DimmLight -down-o Scene
+@enduml
+
+@startuml
+
+
+skinparam nodesep 50 
+
+skinparam ranksep 50
+
+
+title Groups
+
+
+
+class Light{
++ state: boolean
+}
+
+class SwitchLight{
+}
+
+class DimmLight{
++ brightnessLevel: int
+}
+
+class Group{
++ name: string
++ includedLightsIDs: int array
+-configure_group()
+-set_state()
+-set_brightness_level()
+}
+
+class Scene{
++ name: string
++ includedLightsIDs: int array
+- configure_scene()
+}
+
+
+Light <|-down- SwitchLight
+Light <|-down- DimmLight
+Light <|-down- Group
+SwitchLight -down-o Group
+DimmLight -down-o Group
+SwitchLight -down-o Scene
+DimmLight -down-o Scene
+@enduml
+
+PlantUML version 1.2020.21(Mon Nov 30 16:40:11 UTC 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
